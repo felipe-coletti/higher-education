@@ -1,1 +1,1 @@
-# fatec-exercises
+# higher-education
