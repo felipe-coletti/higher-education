@@ -10,7 +10,9 @@ public class exercise-002 {
         
         for(int i = 0; i < n.length; i++) {
             n[i] = in.nextFloat();
-            
+        }
+        
+        for(int i = 0; i < n.length; i++) {
             System.out.print("A nota do" + (i + 1) + "º aluno é: " + n[i] + ".");
             if (i > 7) {
                 a++;
