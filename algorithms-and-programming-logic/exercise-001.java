@@ -11,7 +11,7 @@ public class exercise-001 {
             n[i] = in.nextFloat();
             
             if (i == 7 || i == 9) {
-                System.out.print("A " + (i + 1) + "º nota é " + n[i] + ".");
+                System.out.print("A " + (i + 1) + "º nota é: " + n[i] + ".");
             }
         }
     }
