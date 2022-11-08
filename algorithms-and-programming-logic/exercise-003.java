@@ -9,7 +9,9 @@ public class exercise-003 {
         
         for(int i = 0; i < n.length; i++) {
             n[i] = in.nextInt();
-            
+        }
+        
+        for(int i = 0; i < n.length; i++) {
             if (n[i] % 2 == 0) {
                 n[i] = n[i] * 10;
             } else {
