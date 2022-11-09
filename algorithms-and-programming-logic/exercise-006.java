@@ -10,6 +10,10 @@ public class exercise-006 {
         System.out.print("Os valores pares são: ");
         
         for(int i = 0; i < e.length; i++) {
+            n[i] = in.nextInt();
+        }
+        
+        for(int i = 0; i < e.length; i++) {
             if (e[i] % 2 == 0) {
                 System.out.print("O " + (i + 1) + "º elemento do vetor, que vale: " + e[i] + ".");
             }
