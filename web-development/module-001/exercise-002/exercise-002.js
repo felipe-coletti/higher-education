@@ -1,20 +1,20 @@
-function validar(){
+function validar() {
     let cpf = cadastro.cpf.value 
     let senha = cadastro.senha.value
     let confirmar = cadastro.confirmar.value
 
-    if(cpf.length != 11){
+    if(cpf.length != 11) {
         alert("CPF inválido")
         cadastro.cpf.focus()
         return false
     }
-    if(isNaN(cpf)){
+    if(isNaN(cpf)) {
         alert("Informe apenas números para o campo CPF")
         cadastro.cpf.focus()
         return false
     }
 
-    if(senha != confirmar){
+    if(senha != confirmar) {
         alert("Senhas não conferem")
         cadastro.confirmar.focus()
         return false
@@ -28,7 +28,7 @@ function validar(){
     //(?=.*?[^\w\s]) - mínimo um caractere especial
     //.{6,10} - mínimo 6 e máximo 10 caracteres
 
-    if(!regex.exec(senha)){
+    if(!regex.exec(senha)) {
         alert("A senha deve conter no mínimo uma letra maiúscula, uma letra minúscula, um número, um caractere especial, mínimo 6 e máximo 10 caracteres")
         cadastro.senha.focus()
         return false
