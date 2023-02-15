@@ -1,10 +1,10 @@
-document.addEventListener("DOMContentLoaded", function(){
+document.addEventListener("DOMContentLoaded", function() {
     let url1 = "../css/estilo.css"
     let url2 = "../css/contraste.css"
     let comcontraste = document.getElementById("comcontraste")
     let semcontraste = document.getElementById("semcontraste")
 
-    function createTag(url){
+    function createTag(url) {
         let estilo = document.createElement("link")
         estilo.href = url
         estilo.rel = "stylesheet"
@@ -16,21 +16,21 @@ document.addEventListener("DOMContentLoaded", function(){
 
     let tag = document.getElementsByClassName("acess") //<link  href=url rel="stylesheet" type="text/css">
 
-    comcontraste.onclick = function(){
+    comcontraste.onclick = function() {
         tag[0].href = url2
         localStorage.setItem("css", url2)
     }
 
-    semcontraste.onclick = function(){
+    semcontraste.onclick = function() {
         tag[0].href = url1
         localStorage.setItem("css", url1)
     }
 
     let css = localStorage.getItem("css")
 
-    if(!css){
+    if(!css) {
         createTag(url1)
-    }else{
+    } else {
         createTag(css)
     }
 })
