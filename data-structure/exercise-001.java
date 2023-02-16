@@ -10,7 +10,7 @@ public class JavaApplication1 {
         }
     }
 }
-/*
+*/
 
 package javaapplication1;
 
