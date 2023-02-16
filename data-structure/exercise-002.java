@@ -7,7 +7,7 @@ public class JavaApplication1 {
         
         for (int i = number - 1; i >= 1; i--) {
             result *= i;
-            System.out.println(result + " x " + i + " = " + result);
+            System.out.println(result / i + " x " + i + " = " + result);
         }
     }
 }
