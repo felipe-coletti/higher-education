@@ -17,7 +17,7 @@ public class JavaApplication1 {
         
         for(int i = 0; i < numbers.length; i++) {
             if (numbers[i] % 2 == 0) {
-                System.out.print("O " + (i + 1) + "º elemento do vetor, que vale: " + numbers[i] + ".");
+                System.out.print("O " + (i + 1) + "º número do vetor, que vale: " + numbers[i] + ".");
             }
         }
     } 
