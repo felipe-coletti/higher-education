@@ -1,6 +1,8 @@
 package javaapplication1;
+
 import java.util.Scanner;
-public class exercise-003 {
+
+public class JavaApplication1 {
     public static void main(String[] args) {
         int n[] = new int[10];
         Scanner in = new Scanner(System.in);
