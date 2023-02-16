@@ -1,6 +1,8 @@
 package javaapplication1;
+
 import java.util.Scanner;
-public class exercise-006 {
+
+public class JavaApplication1 {
     public static void main(String[] args) {
         int e[] = new int[15];
         Scanner in = new Scanner(System.in);
