@@ -5,7 +5,7 @@ public class JavaApplication1 {
         float numbers[] = {3, 5, 6, 8, 10};
         float sum = 0;
         
-        for(int i = 0; i < numeros.length; i++) {
+        for(int i = 0; i < numbers.length; i++) {
             if (numbers[i] % 2 != 0) {
                 sum += numbers[i];
             }
