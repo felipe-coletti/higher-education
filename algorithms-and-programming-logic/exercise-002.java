@@ -1,6 +1,8 @@
 package javaapplication1;
+
 import java.util.Scanner;
-public class exercise-002 {
+
+public class JavaApplication1 {
     public static void main(String[] args) {
         float n[] = new float[10];
         float a = 0;
