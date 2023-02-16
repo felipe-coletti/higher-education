@@ -4,23 +4,23 @@ import java.util.Scanner;
 
 public class JavaApplication1 {
     public static void main(String[] args) {
-        int n[] = new int[10];
+        int numbers[] = new int[10];
         Scanner in = new Scanner(System.in);
         
         System.out.println("Digite 10 números inteiros: ");
         
-        for(int i = 0; i < n.length; i++) {
-            n[i] = in.nextInt();
+        for(int i = 0; i < numbers.length; i++) {
+            numbers[i] = in.nextInt();
         }
         
-        for(int i = 0; i < n.length; i++) {
-            if (n[i] % 2 == 0) {
-                n[i] = n[i] * 10;
+        for(int i = 0; i < numbers.length; i++) {
+            if (numbers[i] % 2 == 0) {
+                numbers[i] = numbers[i] * 10;
             } else {
-                n[i] = n[i] + 5;
+                numbers[i] = numbers[i] + 5;
             }
             
-            System.out.print("O " + (i + 1) + "º número é: " + n[i] + ".");
+            System.out.print("O " + (i + 1) + "º número é: " + numbers[i] + ".");
         }
     } 
 }
