@@ -6,11 +6,9 @@ public class JavaApplication1 {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
 
-        int number;
-
         System.out.println("Digite um número inteiro: ");
         
-        number = leitor.nextInt();
+        int number = leitor.nextInt();
         
         for (int line = 1; line <= number; line++) {
             String result = "";
