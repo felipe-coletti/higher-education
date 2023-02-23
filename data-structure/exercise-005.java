@@ -9,13 +9,16 @@ public class JavaApplication1 {
         int number;
 
         System.out.println("Digite um número inteiro: ");
+        
         number = leitor.nextInt();
         
         for (int line = 1; line <= number; line++) {
             String result = "";
+            
             for (int column = 1; column <= line; column++) {
                 result += line + " ";
             }
+            
             System.out.println(result);
         }
     }
