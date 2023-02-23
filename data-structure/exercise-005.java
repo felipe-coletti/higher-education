@@ -10,11 +10,11 @@ public class JavaApplication1 {
         
         int number = leitor.nextInt();
         
-        for (int line = 1; line <= number; line++) {
+        for (int currentLine = 1; currentLine <= number; currentLine++) {
             String result = "";
             
-            for (int column = 1; column <= line; column++) {
-                result += line + " ";
+            for (int columnsNeeded = 1; columnsNeeded <= currentLine; columnsNeeded++) {
+                result += currentLine + " ";
             }
             
             System.out.println(result);
