@@ -16,6 +16,9 @@ public class JavaApplication1 {
         valor_1 = entrada.nextInt();
         System.out.println("Digite um vlor monetário: ");
         moeda_1 = entrada.nextFloat();
-                
+        
+        texto_2 = JOptionPane.showInputDialog("Digite um texto: ");
+        valor_2 = Integer.parseInt(JOptionPane.showInputDialog("Digite um número inteiro: "));
+        moeda_2 = Float.parseFloat(JOptionPane.showInputDialog("Digite um valor monetário: "));
     }
 }
