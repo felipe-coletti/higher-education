@@ -7,7 +7,7 @@ public class person {
 }
 
 public person() {
-    System.out.println("Objeto construído");
+    System.out.println("Objeto construído.");
 }
 
 public person(String name, int age, double income) {
