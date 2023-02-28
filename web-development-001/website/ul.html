@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--Metadados-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html, metadados, comentários, layout, listas">
+    <!--Topo-->
+    <link rel="shortcut icon" href="ativos/imagens/favicon.png" type="image/x-icon">
+    <title>Aulas de desenvolvimento web 1</title>
+    <!--Estilos-->
+    <link rel="stylesheet" href="css/estilo.css">
+    <!--Scripts-->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="js/contraste.js"></script>
+    <script src="js/fonte.js"></script>
+</head>
+<body>
+    <div class="acessibilidade flex-container"><!--Menu de acessibilidade-->
+        <ul class="atalhos">
+            <li><a href="#conteudo" acesskey="1" title="Ir para a área de conteúdo">Ir para o conteúdo da página [1]</a></li>
+            <li><a href="#menu" acesskey="2" title="Ir para o menu de navegação">Ir para o menu de navegação [2]</a></li>
+            <li><a href="#rodape" acesskey="3" title="Ir para o rodapé">Ir para o rodapé [3]</a></li>
+        </ul>
+        <ul class="links_access">
+            <li><a href="acessibilidade.html">Acessibilidade</a></li>
+            <li><a href="javascript:void(0);" id="comcontraste">Com contraste</a></li>
+            <li><a href="javascript:void(0);" id="semcontraste">Sem contraste</a></li>
+            <li><a href="javascript:void(0);" id="aumentar">A+</a></li>
+            <li><a href="javascript:void(0);" id="diminuir">A-</a></li>
+        </ul>
+    </div>
+    <header class="flex-container" id="topo"><!--Menu principal-->
+        <a href="index.html" title="Voltar para o início"><img class="imagem" src="ativos/imagens/FATEC_ZONA_LESTE.png" alt="Logo da Fatec da Zona leste em cinza escuro e vermelho"></a>
+    </header>
+    <nav class="flex-container"><!--Menu de navegação-->
+        <label for="bt_menu"><img src="ativos/imagens/menu.png" alt="menu"></label>
+        <input type="checkbox" name="bt_menu" id="bt_menu">
+        <ul  class="menu">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="comentarios.html">Comentários</a></li>
+            <li><a href="metadados.html">Metadados</a></li>
+            <li><a href="javascript:void(0);">Listas</a>
+                <ul>
+                    <li><a href="ol.html">Lista ordenada</a></li>
+                    <li><a href="ul.html">Lista não ordenada</a></li>
+                </ul>
+            </li>
+            <li><a href="layout.html">Layout</a></li>
+            <li><a href="contato.html">Fale conosco</a></li>
+        </ul>
+    </nav>
+    <main class="flex-container" id="conteudo"><!--Conteúdo da página-->
+        <ul class="breadcrumb">
+            <li><a href="index.html">Início</a></li>
+            <li>Listas</li>
+            <li>Listas não ordenadas</li>
+        </ul>
+        <section>
+            <h1>Listas não ordenadas</h1>
+            <p>Uma lista ordenada começa com a tag &lt;ul&gt;. Cada item da lista começa com a tag &lt;li&gt;.</p>
+            <p>Os itens da lista serão marcados com pequenos círculos por padrão.</p>
+            <img class="imagem" src="ativos/imagens/ul.png" alt="Imagem contendo instruções html para lista ordenada">
+        </section>
+    </main>
+    <footer class="flex-container" id="rodape"><!--Rodapé-->
+        <p>&copy; 2022 Felipe Coletti</p>
+    </footer>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+</body>
+</html>
