@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class JavaApplication1 {
     public static void main(String[] args) {
         int numbers[] = new int[10];
-        Scanner in = new Scanner(System.in);
+        Scanner header = new Scanner(System.in);
         
         System.out.println("Digite 10 números inteiros: ");
         
         for(int i = 0; i < numbers.length; i++) {
-            numbers[i] = in.nextInt();
+            numbers[i] = header.nextInt();
         }
         
         for(int i = 0; i < numbers.length; i++) {
