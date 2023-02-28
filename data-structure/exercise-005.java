@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class JavaApplication1 {
     public static void main(String[] args) {
-        Scanner leitor = new Scanner(System.in);
+        Scanner header = new Scanner(System.in);
 
         System.out.println("Digite um número inteiro: ");
         
-        int number = leitor.nextInt();
+        int number = header.nextInt();
         
         for (int currentLine = 1; currentLine <= number; currentLine++) {
             String result = "";
