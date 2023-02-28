@@ -1,11 +1,11 @@
-var soma = require('./soma.js')
-console.log(soma(10, 10))
+var sum = require('./sum.js')
+console.log(sum(10, 10))
 
-var subtracao = require('./subtracao.js')
-console.log(subtracao(10, 10))
+var subtration = require('./subtration.js')
+console.log(subtration(10, 10))
 
-var multiplicacao = require('./multiplicacao.js')
-console.log(multiplicacao(10, 10))
+var multiplication = require('./multiplication.js')
+console.log(multiplication(10, 10))
 
-var divisao = require('./divisao.js')
-console.log(divisao(10, 10))
+var division = require('./division.js')
+console.log(division(10, 10))
