@@ -5,14 +5,14 @@ import java.util.Scanner;
 public class JavaApplication1 {
     public static void main(String[] args) {
         int numbers[] = new int[15];
-        Scanner in = new Scanner(System.in);
+        Scanner header = new Scanner(System.in);
         
         System.out.println("Digite 15 números inteiros: ");
         
         System.out.print("Os valores pares são: ");
         
         for(int i = 0; i < numbers.length; i++) {
-            n[i] = in.nextInt();
+            n[i] = header.nextInt();
         }
         
         for(int i = 0; i < numbers.length; i++) {
