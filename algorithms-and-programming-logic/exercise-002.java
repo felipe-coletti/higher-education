@@ -6,12 +6,12 @@ public class JavaApplication1 {
     public static void main(String[] args) {
         float notas[] = new float[10];
         float aprovados = 0;
-        Scanner in = new Scanner(System.in);
+        Scanner header = new Scanner(System.in);
         
         System.out.println("Digite as 10 notas: ");
         
         for(int i = 0; i < notas.length; i++) {
-            notas[i] = in.nextFloat();
+            notas[i] = header.nextFloat();
         }
         
         for(int i = 0; i < notas.length; i++) {
