@@ -1,3 +1,3 @@
-var tabuada = require('./tabuada.js')
+var table = require('./table.js')
 
-tabuada(2)
+table(2)
