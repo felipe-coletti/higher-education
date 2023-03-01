@@ -2,7 +2,8 @@ const express = require("express")
 const app = express()
 
 app.get("/", function(req, res){
-    res.send("<h1>Estou na primeira página.</h1>")
+    // res.send("<h1>Estou na primeira página.</h1>")
+    res.sendFile(__dirname + "/html/index.html")
 })
 
 app.get("/contato", function(req, res){
