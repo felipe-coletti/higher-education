@@ -11,7 +11,7 @@ app.get("/contato", function(req, res){
     res.send("Estou na página de contato.")
 })
 
-//Teste mais uma outra página
+//Teste com mais uma página
 app.get("/produto", function(req, res){
     res.send("Estou na página de produto.")
 })
