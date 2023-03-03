@@ -12,7 +12,7 @@ public class JavaApplication1 {
         System.out.print("Os valores pares são: ");
         
         for(int i = 0; i < numbers.length; i++) {
-            n[i] = header.nextInt();
+            numbers[i] = header.nextInt();
         }
         
         for(int i = 0; i < numbers.length; i++) {
