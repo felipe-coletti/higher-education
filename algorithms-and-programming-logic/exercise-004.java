@@ -13,6 +13,6 @@ public class JavaApplication1 {
         
         float a = b * h;
         
-        System.out.println("A área do retângulo é: " + a);
+        System.out.println("A área do retângulo é: " + a + ".");
     }
 }
