@@ -9,11 +9,11 @@ public class JavaApplication1 {
         // Entrada
         
         System.out.println("Digite o código da peça: ");
-        float pieceCode = header.nextFloat();
+        float pieceCode = header.nextInt();
         System.out.println("Digite o valor da peça: ");
         float pieceValue = header.nextFloat();
         System.out.println("Digite a quantidade de peças: ");
-        float pieceQuantity = header.nextFloat();
+        float pieceQuantity = header.nextInt();
         
         // Processamento
         
