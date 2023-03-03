@@ -15,7 +15,7 @@ public class JavaApplication1 {
         
         for(int i = 0; i < notas.length; i++) {
             if (i == 6 || i == 8) {
-                System.out.print("A " + (i + 1) + "º nota é " + notas[i] + ".");
+                System.out.print("A " + (i + 1) + "º nota é: " + notas[i] + ".");
             }
         }
     }
