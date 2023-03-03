@@ -21,6 +21,6 @@ public class JavaApplication1 {
         
         // Saída
         
-        System.out.println("O valor total das peças com o código " + pieceCode + " é R$ " + totalValue + ".");
+        System.out.println("O valor total das peças com o código " + pieceCode + " é: R$ " + totalValue + ".");
     }
 }
