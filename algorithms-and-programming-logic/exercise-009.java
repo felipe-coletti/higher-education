@@ -7,9 +7,9 @@ public class JavaApplication1 {
         Scanner header = new Scanner(System.in);
         
         System.out.println("Digite a primeira nota: ");
-        double firstGrade = header.nextInt();
+        double firstGrade = header.nextDouble();
         System.out.println("Digite a segunda nota: ");
-        double secondGrade = header.nextInt();
+        double secondGrade = header.nextDouble();
         
         double weightedAverage = (firstGrade * 2.5 + secondGrade * 4.5) / 2; 
         
