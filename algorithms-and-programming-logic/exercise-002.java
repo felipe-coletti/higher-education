@@ -7,11 +7,11 @@ public class JavaApplication1 {
         Scanner header = new Scanner(System.in);
         
         System.out.println("Digite a quantidade mínima de peçass: ");
-        float minimumQuantity = header.nextFloat();
+        int minimumQuantity = header.nextInt();
         System.out.println("Digite a quantidade máxima de peças: ");
-        float maximumQauntity = header.nextFloat();
+        int maximumQauntity = header.nextInt();
         
-        float averageStock = minimumQuantity * maximumQauntity / 2;
+        int averageStock = minimumQuantity * maximumQauntity / 2;
         
         System.out.println("A quantidade média de peças no estoque é: " + averageStock + ".");
     }
