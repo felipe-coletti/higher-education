@@ -10,7 +10,7 @@ public class JavaApplication1 {
         
         System.out.println("Digite 10 números inteiros: ");
         
-        for(int i = 0; i < numbers.length; i++) {
+        for (int i = 0; i < numbers.length; i++) {
             numbers[i] = header.nextInt();
         }
         
