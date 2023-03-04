@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class JavaApplication1 {
     public static void main(String[] args) {
         Scanner header = new scanner(System.in);
-        double media = 0
+        
+        double media = 0;
         
         for (int i = 0; i <= notas.length; i++) {
             double[i] notas = header.nextDouble();
