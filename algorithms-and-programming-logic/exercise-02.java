@@ -4,9 +4,10 @@ import java.util.Scanner;
 
 public class JavaApplication1 {
     public static void main(String[] args) {
+         Scanner header = new Scanner(System.in);
+        
         float grades[] = new float[10];
         float approved = 0;
-        Scanner header = new Scanner(System.in);
         
         System.out.println("Digite as 10 notas: ");
         
