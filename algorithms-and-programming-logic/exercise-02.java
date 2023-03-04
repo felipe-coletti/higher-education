@@ -11,11 +11,11 @@ public class JavaApplication1 {
         
         System.out.println("Digite as 10 notas: ");
         
-        for(int i = 0; i < grades.length; i++) {
+        for (int i = 0; i < grades.length; i++) {
             grades[i] = header.nextFloat();
         }
         
-        for(int i = 0; i < grades.length; i++) {
+        for (int i = 0; i < grades.length; i++) {
             System.out.print("A nota do" + (i + 1) + "º aluno é: " + grades[i] + ".");
             if (i > 7) {
                 approved++;
