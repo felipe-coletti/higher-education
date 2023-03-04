@@ -4,8 +4,9 @@ import java.util.Scanner;
 
 public class JavaApplication1 {
     public static void main(String[] args) {
-        int numbers[] = new int[10];
         Scanner header = new Scanner(System.in);
+        
+        int numbers[] = new int[10];
         
         System.out.println("Digite 10 números inteiros: ");
         
