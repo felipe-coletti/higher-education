@@ -7,7 +7,6 @@ public class JavaApplication1 {
         Scanner header = new Scanner(System.in);
 
         System.out.println("Digite um número inteiro: ");
-        
         int number = header.nextInt();
         
         for (int currentLine = 1; currentLine <= number; currentLine++) {
