@@ -10,7 +10,7 @@ database.authenticate().then(function(){
     console.log("Falha ao conectar: " + error)
 })
 
-const schedules sequelize.define("agendamentos", {
+const schedules sequelize.define("schedules", {
     name: {
         type: sequelize.STRING
     },
@@ -23,7 +23,7 @@ const schedules sequelize.define("agendamentos", {
         type: sequelize.STRING
     },
 
-    cep: {
+    zipCode: {
         type: sequelize.INTEGER
     },
 
@@ -44,7 +44,7 @@ schedules.create({
     name: "Jeferson Roberto de Lis",
     address: "Av Águia de Haia",
     neighborhood: "Jd São Nicolau",
-    cep: 09239222,
+    zipCode: 09239222,
     city: "São Paulo",
     state: "SP",
     note: "Teste para aula"
