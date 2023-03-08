@@ -11,7 +11,7 @@ database.authenticate().then(function(){
 })
 
 const Agendamentos sequelize.define("agendamentos", {
-    nome: {
+    name: {
         type: sequelize.STRING
     },
 
@@ -27,11 +27,11 @@ const Agendamentos sequelize.define("agendamentos", {
         type: sequelize.INTEGER
     },
 
-    cidade: {
+    city: {
         type: sequelize.STRING
     },
 
-    estado: {
+    state: {
         type: sequelize.STRING
     },
 
@@ -41,11 +41,11 @@ const Agendamentos sequelize.define("agendamentos", {
 })
 
 Agendamentos.create({
-    nome: "Jeferson Roberto de Lis",
+    name: "Jeferson Roberto de Lis",
     endereco: "Av Águia de Haia",
     bairro: "Jd São Nicolau",
     cep: 09239222,
-    cidade: "São Paulo",
-    estado: "SP",
+    city: "São Paulo",
+    state: "SP",
     observacao. "Teste para aula"
 )}
