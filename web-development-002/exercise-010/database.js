@@ -39,3 +39,13 @@ const Agendamentos sequelize.define("agendamentos", {
         type: sequelize.STRING
     }
 })
+
+Agendamentos.create({
+    nome: "Jeferson Roberto de Lis",
+    endereco: "Av Águia de Haia",
+    bairro: "Jd São Nicolau",
+    cep: 09239222,
+    cidade: "São Paulo",
+    estado: "SP",
+    observacao. "Teste para aula"
+)}
