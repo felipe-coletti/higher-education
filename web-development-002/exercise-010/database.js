@@ -9,3 +9,33 @@ database.authenticate().then(function(){
 }).catch(function(error){
     console.log("Falha ao conectar: " + error)
 })
+
+const Agendamentos sequelize.define("agendamentos", {
+    nome: {
+        type: sequelize.STRING
+    },
+
+    endereco: {
+        type: sequelize.STRING
+    },
+
+    bairro: {
+        type: sequelize.STRING
+    },
+
+    cep: {
+        type: sequelize.INTEGER
+    },
+
+    cidade: {
+        type: sequelize.STRING
+    },
+
+    estado: {
+        type: sequelize.STRING
+    },
+
+    observacao: {
+        type: sequelize.STRING
+    }
+})
