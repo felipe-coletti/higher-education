@@ -15,11 +15,11 @@ const Agendamentos sequelize.define("agendamentos", {
         type: sequelize.STRING
     },
 
-    endereco: {
+    address: {
         type: sequelize.STRING
     },
 
-    bairro: {
+    neighborhood: {
         type: sequelize.STRING
     },
 
@@ -35,17 +35,17 @@ const Agendamentos sequelize.define("agendamentos", {
         type: sequelize.STRING
     },
 
-    observacao: {
+    note: {
         type: sequelize.STRING
     }
 })
 
 Agendamentos.create({
     name: "Jeferson Roberto de Lis",
-    endereco: "Av Águia de Haia",
-    bairro: "Jd São Nicolau",
+    address: "Av Águia de Haia",
+    neighborhood: "Jd São Nicolau",
     cep: 09239222,
     city: "São Paulo",
     state: "SP",
-    observacao. "Teste para aula"
+    note: "Teste para aula"
 )}
