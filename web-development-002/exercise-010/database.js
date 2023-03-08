@@ -10,7 +10,7 @@ database.authenticate().then(function(){
     console.log("Falha ao conectar: " + error)
 })
 
-const Agendamentos sequelize.define("agendamentos", {
+const schedules sequelize.define("agendamentos", {
     name: {
         type: sequelize.STRING
     },
@@ -40,7 +40,7 @@ const Agendamentos sequelize.define("agendamentos", {
     }
 })
 
-Agendamentos.create({
+schedules.create({
     name: "Jeferson Roberto de Lis",
     address: "Av Águia de Haia",
     neighborhood: "Jd São Nicolau",
