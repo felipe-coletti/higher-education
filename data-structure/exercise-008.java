@@ -6,18 +6,18 @@ public class JavaApplication1 {
     public static void main(String[] args) {
         Scanner header = new scanner(System.in);
         
-        double media = 0;
+        double average = 0;
         
-        for (int i = 0; i <= notas.length; i++) {
-            double[i] notas = header.nextDouble();
-            media += notas[i];
+        for (int i = 0; i <= grades.length; i++) {
+            double[i] grades = header.nextDouble();
+            average += grades[i];
         }
         
-        media /= notas.length;
+        average /= grades.length;
         
-        for (int i = 0; i <= notas.length; i++) {
-            if (notas[i] >= media) {
-                System.out.println(notas[i]);
+        for (int i = 0; i <= grades.length; i++) {
+            if (grades[i] >= average) {
+                System.out.println(grades[i]);
             }
         }
     }
