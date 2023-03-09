@@ -12,6 +12,11 @@ public class List {
     }
     
     void add(Object info) {
-        Knot n = new Knot(info);
+        Knot knot = new Knot(info);
+        if (length == 0) {
+            start = knot;
+        } else {
+            end.next = knot;
+        }
     }
 }
