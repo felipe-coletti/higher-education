@@ -11,8 +11,8 @@ public class List {
         length = 0;
     }
     
-    void add(Object info) {
-        Knot knot = new Knot(info);
+    void add(String name, String telephone) {
+        Knot knot = new Knot(name, telephone);
         
         if (isItEmpty()) {
             start = knot;
@@ -32,18 +32,24 @@ public class List {
         Knot knot = start;
         
         for (int i = 0; i < length; i++) {
-            System.out.println(knot.info);
+            System.out.println(knot.name + ": " + knot.telephone);
             knot = knot.next;
         }
     }
     
-    void printInfo(int iEnd) {
+    void findTelephone(String name) {
         Knot knot = start;
+        int equalsQuantity = 0;
         
-        for (int i = 0; i < iEnd; i++) {
+        for (int i = 0; i < length; i++) {
+            if (knot.name.equals(name)) {
+                System.out.println(knot.telephone);
+                equalsQuantity++;
+            }
             knot = knot.next;
         }
-        
-        System.out.println(knot.info);
+        if (equalsQuantity == 0) {
+            System.out.println("Não existe nenhum telefone cadastrado com esse nome.");
+        }
     }
 }
