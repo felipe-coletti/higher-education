@@ -14,7 +14,7 @@ public class List {
     void add(Object info) {
         Knot knot = new Knot(info);
         
-        if (length == 0) {
+        if (isItEmpty()) {
             start = knot;
         } else {
             end.next = knot;
