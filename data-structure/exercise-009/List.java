@@ -23,4 +23,8 @@ public class List {
         end = knot;
         length++;
     }
+    
+    boolean isItEmpty() {
+        return length == 0;
+    }
 }
