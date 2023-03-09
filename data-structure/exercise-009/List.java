@@ -30,6 +30,7 @@ public class List {
     
     void printList() {
         Knot knot = start;
+        
         for (int i = 0; i < length; i++) {
             System.out.println(knot.info);
             knot = knot.next;
@@ -38,6 +39,7 @@ public class List {
     
     void printInfo(int iEnd) {
         Knot knot = start;
+        
         for (int i = 0; i < iEnd; i++) {
             knot = knot.next;
         }
