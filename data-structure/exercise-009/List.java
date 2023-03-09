@@ -27,4 +27,12 @@ public class List {
     boolean isItEmpty() {
         return length == 0;
     }
+    
+    void printList() {
+        Knot knot = start;
+        for (int i = 0; i < length; i++) {
+            System.out.println(knot.info);
+            knot = knot.next;
+        }
+    }
 }
