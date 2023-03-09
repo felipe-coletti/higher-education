@@ -10,4 +10,8 @@ public class List {
         end = null;
         length = 0;
     }
+    
+    void add(Object info) {
+        Knot n = new Knot(info);
+    }
 }
