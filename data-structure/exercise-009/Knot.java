@@ -1,11 +1,13 @@
 package javaapplication1;
 
 public class Knot {
-    Object info;
+    String name;
+    String telephone;
     Knot next;
     
-    Knot(Object info) {
-        this.info = info;
+    Knot(String name, String telephone) {
+        this.name = name;
+        this.telephone = telephone;
         next = null;
     }
 }
