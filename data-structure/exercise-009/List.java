@@ -17,7 +17,8 @@ public class List {
             start = knot;
         } else {
             end.next = knot;
-            length++;
         }
+        end = knot;
+        length++;
     }
 }
