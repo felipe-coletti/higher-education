@@ -35,4 +35,13 @@ public class List {
             knot = knot.next;
         }
     }
+    
+    void printInfo(int iEnd) {
+        Knot knot = start;
+        for (int i = 0; i < iEnd; i++) {
+            knot = knot.next;
+        }
+        
+        System.out.println(knot.info);
+    }
 }
