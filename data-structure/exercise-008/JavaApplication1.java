@@ -10,6 +10,7 @@ public class JavaApplication1 {
         
         for (int i = 0; i <= grades.length; i++) {
             double[i] grades = header.nextDouble();
+            
             average += grades[i];
         }
         
