@@ -9,7 +9,7 @@ public class JavaApplication1 {
         float grades[] = new float[5];
         float average = 0;
         
-        System.out.println("Digite as notas: ");
+        System.out.println("Digite 5 notas: ");
         
         for (int i = 0; i < grades.length; i++) {
             grades[i] = header.nextFloat();
