@@ -7,6 +7,7 @@ public class JavaApplication1 {
         for (int i = names.length; i >= 0; i--) {
             for (int j = 0; j <= invertedNames; j++) {
                 invertedNames[j] = names[i];
+                
                 System.out.println(invertedNames[j]);
             }
         }
