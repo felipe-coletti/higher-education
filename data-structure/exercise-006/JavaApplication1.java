@@ -6,6 +6,7 @@ public class JavaApplication1 {
         
         for (int i = 0; i <= salaries.length; i++) {
             salaries[i] += salaries;
+            
             System.out.println(salaries);
         }
     }
