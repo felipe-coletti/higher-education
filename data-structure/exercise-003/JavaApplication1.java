@@ -11,7 +11,9 @@ public class JavaApplication1 {
         do {
             System.out.println("Digite um número inteiro: ");
             int number = header.nextInt();
+            
             result += number;
+            
             System.out.println("A soma é: " + result + ".");
         } while(number != 0);
     }
