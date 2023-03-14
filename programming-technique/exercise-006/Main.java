@@ -10,12 +10,12 @@ public class Main {
         float value, taxValue, tax;
         
         brand = JOptionPane.showInputDialog("Digite a marca do produto: ");
-        value = Float.parseFloat(JOptionPane.showInputDialog("Digte o valor do produto: "));
+        value = Float.parseFloat(JOptionPane.showInputDialog("Digite o valor do produto: "));
         
         product = new Product(brand, value);
         
         product.printData();
-        tax = Float.parseFloat(JOptionPane.showInputDialog("Digte a taxa de imposto em porcentagem: "));
+        tax = Float.parseFloat(JOptionPane.showInputDialog("Digite a taxa de imposto em porcentagem: "));
         taxValue = product.calculateTax(tax);
         JOptionPane.showMessageDialog(null, "O imposto do produto é de R$ " + taxValue + ".");
     }
