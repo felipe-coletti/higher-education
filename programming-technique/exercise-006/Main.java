@@ -15,7 +15,7 @@ public class Main {
         product = new Product(brand, value);
         
         product.printData();
-        tax = Float.parseFloat(JOptionPane.showInputDialog("Digite a taxa de imposto em porcentagem: "));
+        tax = Float.parseFloat(JOptionPane.showInputDialog("Digite a taxa de imposto: "));
         taxValue = product.calculateTax(tax);
         JOptionPane.showMessageDialog(null, "O valor de imposto do produto é de R$ " + taxValue + ".");
     }
