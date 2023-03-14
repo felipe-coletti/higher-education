@@ -11,7 +11,7 @@ public class Main {
         
         branch = JOptionPane.showInputDialog("Digite o número da agência: ");
         number = JOptionPane.showInputDialog("Digite o número da conta: ");
-        balance = Float.parseFloat(JOptionPane.showInputDialog("Digte o saldo da conta: "));
+        balance = Float.parseFloat(JOptionPane.showInputDialog("Digite o saldo da conta: "));
         fee = Float.parseFloat(JOptionPane.showInputDialog("Digite o valor da taxa: "));
         
         account = new Account(branch, number, balance, fee);
