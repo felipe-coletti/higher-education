@@ -42,4 +42,4 @@ schedules.create({
     city: "São Paulo",
     state: "SP",
     note: "Teste para aula"
-)}
+})
