@@ -10,7 +10,7 @@ database.authenticate().then(function(){
     console.log("Falha ao conectar: " + error)
 })
 
-const schedules sequelize.define("schedules", {
+const schedules = sequelize.define("schedules", {
     name: {
         type: sequelize.STRING
     },
