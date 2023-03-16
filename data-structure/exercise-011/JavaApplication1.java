@@ -9,16 +9,16 @@ public class JavaApplication1 {
         float a = header.nextFloat();
         float b = header.nextFloat();
         
-        float c = multiplication(a, b);
+        float c = recursiveMultiplication(a, b);
         
         System.out.println(c);
     }
     
-    static float multiplication(float a, float b) {      
+    static float recursiveMultiplication(float a, float b) {      
         if (b == 1) {
             return a;
         } else {
-            return a + multiplication(a, b - 1);
+            return a + recursiveMultiplication(a, b - 1);
         }
     }
 }
