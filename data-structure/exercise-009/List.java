@@ -11,6 +11,10 @@ public class List {
         length = 0;
     }
     
+    boolean isItEmpty() {
+        return length == 0;
+    }
+    
     void add(String name, String telephone) {
         Knot knot = new Knot(name, telephone);
         
@@ -22,10 +26,6 @@ public class List {
         
         end = knot;
         length++;
-    }
-    
-    boolean isItEmpty() {
-        return length == 0;
     }
     
     void printList() {
