@@ -33,11 +33,15 @@ public class Stack {
     }
     
     void unstack() {
-        Knot knot = top;
-        
-        for (int i = 0; i < length; i++) {
-            System.out.println(knot.info);
-            knot = knot.pointer;
+        if (isItEmpty()) {
+            return "The stack is empty.";
+        } else {
+            Knot knot = top;
+
+            for (int i = 0; i < length; i++) {
+                System.out.println(knot.info);
+                knot = knot.pointer;
+            }
         }
     }
 }
