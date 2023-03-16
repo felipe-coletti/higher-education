@@ -18,8 +18,7 @@ public class JavaApplication1 {
         if (b == 1) {
             return a;
         } else {
-            a += a;
-            return multiplication(a, b - 1);
+            return a + multiplication(a, b - 1);
         }
     }
 }
