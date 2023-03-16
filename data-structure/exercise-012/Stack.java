@@ -23,4 +23,12 @@ public class Stack {
         top = knot;
         length++;
     }
+    
+    Object top() {
+        if (isItEmpty()) {
+            return "The stack is empty";
+        } else {
+            return top.info;
+        }
+    }
 }
