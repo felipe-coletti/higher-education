@@ -13,7 +13,7 @@ public class Stack {
         return length == 0;
     }
     
-    void pile(Object info) {
+    void toStack(Object info) {
         Knot knot = new Knot(info);
         
         if (!isItEmpty()) {
@@ -26,9 +26,18 @@ public class Stack {
     
     Object top() {
         if (isItEmpty()) {
-            return "The stack is empty";
+            return "The stack is empty.";
         } else {
             return top.info;
+        }
+    }
+    
+    void unstack() {
+        Knot knot = top;
+        
+        for (int i = 0; i < length; i++) {
+            System.out.println(knot.info);
+            knot = knot.pointer;
         }
     }
 }
