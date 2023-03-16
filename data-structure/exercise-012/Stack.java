@@ -32,7 +32,7 @@ public class Stack {
         }
     }
     
-    void unstack() {
+    Object unstack() {
         if (isItEmpty()) {
             return "The stack is empty.";
         } else {
