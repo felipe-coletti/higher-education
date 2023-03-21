@@ -22,8 +22,6 @@ public class Account {
     }
     
     float calculateIncome() {
-        float income;
-        income = fee / 100 * balance;
-        return income;
+        return fee / 100 * balance;
     }
 }
