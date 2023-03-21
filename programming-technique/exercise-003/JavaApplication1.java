@@ -14,7 +14,7 @@ public class JavaApplication1 {
         text_1 = header.next();
         System.out.println("Digite um número inteiro: ");
         value_1 = header.nextInt();
-        System.out.println("Digite um vlor monetário: ");
+        System.out.println("Digite um valor monetário: ");
         currency_1 = header.nextFloat();
         
         text_2 = JOptionPane.showInputDialog("Digite um texto: ");
