@@ -2,25 +2,24 @@ const express = require("express")
 const app = express()
 
 app.get("/", function(req, res){
-    // res.send("<h1>Estou na primeira página.</h1>")
     res.sendFile(__dirname + "/html/index.html")
 })
 
-app.get("/contato", function(req, res){
+app.get("/contact", function(req, res){
     res.send("Estou na página de contato.")
 })
 
-app.get("/produto", function(req, res){
+app.get("/product", function(req, res){
     res.send("Estou na página de produto.")
 })
 
-app.get("/produto/:item", function(req, res){
+app.get("/product/:item", function(req, res){
     // res.send(req.params)
     res.send("Item: " + req.params.item)
 })
 
-app.get("/produto/:item/:quantidade", function(req, res){
-    res.send("Item: " + req.params.item + "<br>Quantidade: " + req.params.quantidade)
+app.get("/product/:item/:quantity", function(req, res){
+    res.send("Item: " + req.params.item + "<br>Quantidade: " + req.params.quantity)
 })
 
 app.listen(8081, function(){
