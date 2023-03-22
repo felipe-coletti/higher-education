@@ -22,12 +22,6 @@ function validar() {
 
     const regex = /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[^\w\s]).{6,10}$/
 
-    //(?=.*[A-Z]) - mínimo uma letra maiúscula
-    //(?=.*?[a-z]) - mínimo uma letra minúscula
-    //(?=.*?[0-9]) - mínimo um número
-    //(?=.*?[^\w\s]) - mínimo um caractere especial
-    //.{6,10} - mínimo 6 e máximo 10 caracteres
-
     if(!regex.exec(senha)) {
         alert("A senha deve conter no mínimo uma letra maiúscula, uma letra minúscula, um número, um caractere especial, mínimo 6 e máximo 10 caracteres.")
         cadastro.senha.focus()
