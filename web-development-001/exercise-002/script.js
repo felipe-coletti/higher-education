@@ -9,13 +9,13 @@ function validar() {
         return false
     }
     if(isNaN(cpf)) {
-        alert("Informe apenas números para o campo CPF")
+        alert("Informe apenas números para o campo CPF.")
         cadastro.cpf.focus()
         return false
     }
 
     if(senha != confirmar) {
-        alert("Senhas não conferem")
+        alert("Senhas não conferem.")
         cadastro.confirmar.focus()
         return false
     }
@@ -29,7 +29,7 @@ function validar() {
     //.{6,10} - mínimo 6 e máximo 10 caracteres
 
     if(!regex.exec(senha)) {
-        alert("A senha deve conter no mínimo uma letra maiúscula, uma letra minúscula, um número, um caractere especial, mínimo 6 e máximo 10 caracteres")
+        alert("A senha deve conter no mínimo uma letra maiúscula, uma letra minúscula, um número, um caractere especial, mínimo 6 e máximo 10 caracteres.")
         cadastro.senha.focus()
         return false
     }
