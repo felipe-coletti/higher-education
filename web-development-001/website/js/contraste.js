@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
         document.body.appendChild(estilo)
     }
 
-    let tag = document.getElementsByClassName("acess") //<link  href=url rel="stylesheet" type="text/css">
+    let tag = document.getElementsByClassName("acess")
 
     comcontraste.onclick = function() {
         tag[0].href = url2
