@@ -47,11 +47,11 @@ public class Cost {
     }
   
     float icmsCofins() {
-        return COFINS() * ICMS() * suply;
+        return cofins() * icms() * suply;
     }
   
     float icmsPis() {
-        return PIS() * ICMS() * suply;
+        return pis() * icms() * suply;
     }
   
     void printBill(consumption) {
