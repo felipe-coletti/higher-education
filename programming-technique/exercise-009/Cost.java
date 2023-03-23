@@ -55,6 +55,6 @@ public class Cost {
         }
   
         String bill() {
-            JOptionPane.showMessageDialog(null, "");
+            JOptionPane.showMessageDialog(null, "Dados da fatura:\nFornecimento: " + suply + "\nICMS: " + ICMS() + "\nCOFINS: " + COFINS() + "\nPIS/PASESP: " + PIS() + "\nICMS sobre COFINS: " + icmsCofins() + "\nICMS sobre PIS/PASESP: " + icmsPis());
         }
 }
