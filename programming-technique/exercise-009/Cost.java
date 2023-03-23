@@ -46,15 +46,11 @@ public class Cost {
         return multiplicationFactor * suply;
     }
   
-    float icmsCofins() {
-        return cofins() * icms() * suply;
-    }
+    float icmsCofins = cofins() * icms() * suply;
   
-    float icmsPis() {
-        return pis() * icms() * suply;
-    }
+    float icmsPis = pis() * icms() * suply;
   
     void printBill(consumption) {
-        JOptionPane.showMessageDialog(null, "Dados da fatura:\nFornecimento: " + suply + "\nICMS: " + icms(consumption) + "\nCOFINS: " + cofins(consumption) + "\nPIS/PASESP: " + pis(consumption) + "\nICMS sobre COFINS: " + icmsCofins() + "\nICMS sobre PIS/PASESP: " + icmsPis());
+        JOptionPane.showMessageDialog(null, "Dados da fatura:\nFornecimento: " + suply + "\nICMS: " + icms(consumption) + "\nCOFINS: " + cofins(consumption) + "\nPIS/PASESP: " + pis(consumption) + "\nICMS sobre COFINS: " + icmsCofins + "\nICMS sobre PIS/PASESP: " + icmsPis);
     }
 }
