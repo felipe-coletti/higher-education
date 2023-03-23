@@ -54,7 +54,7 @@ public class Cost {
         return PIS() * ICMS() * suply;
     }
   
-    String printBill(consumption) {
+    void printBill(consumption) {
         JOptionPane.showMessageDialog(null, "Dados da fatura:\nFornecimento: " + suply + "\nICMS: " + ICMS(consumption) + "\nCOFINS: " + COFINS(consumption) + "\nPIS/PASESP: " + PIS(consumption) + "\nICMS sobre COFINS: " + icmsCofins() + "\nICMS sobre PIS/PASESP: " + icmsPis());
     }
 }
