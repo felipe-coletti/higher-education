@@ -10,7 +10,7 @@ public class Cost {
         this.suply = consumption * fare;
     }
   
-    float ICMS(consumption) {
+    float icms(consumption) {
         if (consumption <= 200) {
             aliquot = 0.12;
             multiplicationFactor = 0.136363;
@@ -22,7 +22,7 @@ public class Cost {
         return multiplicationFactor * suply;
     }
       
-    float COFINS(consumption) {
+    float cofins(consumption) {
         aliquot = 0.05033;
           
         if (consumption <= 200) {
@@ -34,7 +34,7 @@ public class Cost {
         return multiplicationFactor * suply;
     }
       
-    float PIS(consumption) {
+    float pis(consumption) {
         aliquot = 0.010927;
           
         if (consumption <= 200) {
@@ -55,6 +55,6 @@ public class Cost {
     }
   
     void printBill(consumption) {
-        JOptionPane.showMessageDialog(null, "Dados da fatura:\nFornecimento: " + suply + "\nICMS: " + ICMS(consumption) + "\nCOFINS: " + COFINS(consumption) + "\nPIS/PASESP: " + PIS(consumption) + "\nICMS sobre COFINS: " + icmsCofins() + "\nICMS sobre PIS/PASESP: " + icmsPis());
+        JOptionPane.showMessageDialog(null, "Dados da fatura:\nFornecimento: " + suply + "\nICMS: " + icms(consumption) + "\nCOFINS: " + cofins(consumption) + "\nPIS/PASESP: " + pis(consumption) + "\nICMS sobre COFINS: " + icmsCofins() + "\nICMS sobre PIS/PASESP: " + icmsPis());
     }
 }
