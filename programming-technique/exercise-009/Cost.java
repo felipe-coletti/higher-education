@@ -3,7 +3,7 @@ package javaapplication1;
 public class Cost {
     float fare, aliquot, multiplicationFactor, suply;
   
-    public Cost() {
+    public Cost(consumption) {
         this.fare =  0.28172;
         this.aliquot = aliquot;
         this.multiplicationFactor = multiplicationFactor;
