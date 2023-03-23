@@ -19,7 +19,7 @@ public class Cost {
             multiplicationFactor = 0.333333;
         }
           
-        return multiplicationFactor * suply();
+        return multiplicationFactor * suply;
     }
       
     float COFINS() {
@@ -31,7 +31,7 @@ public class Cost {
             multiplicationFactor = 0.0730751;
         }
           
-        return multiplicationFactor * suply();
+        return multiplicationFactor * suply;
     }
       
     float PIS() {
@@ -43,7 +43,7 @@ public class Cost {
             multiplicationFactor = 0.0158651;
         }
           
-        return multiplicationFactor * suply();
+        return multiplicationFactor * suply;
     }
   
     float icmsCofins() {
