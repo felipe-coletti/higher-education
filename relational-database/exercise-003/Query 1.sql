@@ -3,14 +3,14 @@ create database parking;
 use parking;
 
 create table product (
-	id int auto_increment,
+	id int not null auto_increment,
 	cost float(6, 2),
 	description varchar(255),
 	primary key(id)
 );
 
 create table service (
-	id int auto_increment,
+	id int not null auto_increment,
 	cost float(6, 2),
 	time time,
 	description varchar(255),
@@ -18,7 +18,7 @@ create table service (
 );
 
 create table budget (
-	id int auto_increment,
+	id int not null auto_increment,
 	value float(6, 2),
 	situation varchar(255),
 	date date,
@@ -29,7 +29,7 @@ create table budget (
 );
 
 create table client (
-	cpf varchar(14),
+	cpf varchar(14) not null,
 	name varchar(255),
 	telephone varchar(19),
 	address varchar(255),
@@ -37,7 +37,7 @@ create table client (
 );
 
 create table vehicle (
-	renavam int(11),
+	renavam int(11) not null,
 	chassis varchar(255),
 	model varchar(255),
 	color varchar(255),
@@ -46,7 +46,7 @@ create table vehicle (
 );
 
 create table clientReport (
-	id int auto_increment,
+	id int not null auto_increment,
 	problem varchar(255),
 	date date,
 	constraint vehicleId foreign key (id) references vehicle (id),
