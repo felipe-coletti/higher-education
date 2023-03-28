@@ -15,6 +15,6 @@ public class JavaApplication1 {
         
         float l = d / 12;
         
-        System.out.println("A distância percorrida pelo veículo é de " + d + " Km e a quantidade de combustível gasta na viagem foi de " + l + " L.");
+        System.out.println("A distância percorrida pelo veículo foi de " + d + " Km e a quantidade de combustível gasta na viagem foi de " + l + " L.");
     }
 }
