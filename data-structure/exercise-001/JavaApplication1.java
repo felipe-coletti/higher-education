@@ -16,14 +16,11 @@ package javaapplication1;
 
 public class JavaApplication1 {
     public static void main(String[] args) {
-        int start = 1;
-        int end = 10;
-        
-        if (start % 2 != 0) {
-            start++;
-        }
-        
-        for (int i = start; i <= end; i += 2) {
+        for (int i = 1; i <= 10; i += 2) {
+            if (i % 2 != 0) {
+                i++;
+            }
+            
             System.out.println(i);
         }
     }
