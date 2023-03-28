@@ -8,9 +8,10 @@ public class JavaApplication1 {
         
         System.out.println("Digite por quantos dias o cliente ficou hospedado no hotel: ");
         float days = header.nextFloat();
-        float serviceFee;
         
         float dailyRates = days * 95;
+        
+        float serviceFee;
         
         if (days > 10) {
             serviceFee = dailyRates / 100 * 15;
