@@ -3,7 +3,7 @@ package javaapplication1;
 public class JavaApplication1 {
     public static void main(String[] args) {
         int a[] = {3, 5, 6, 8, 10};
-        int b[] = {3, 5, 6, 8, 10};
+        int b[] = {2, 3, 4, 5, 6};
         int c[] = new int[5];
         
         for (int i = 0; i < a.length; i++) {
