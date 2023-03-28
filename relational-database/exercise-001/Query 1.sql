@@ -5,7 +5,7 @@ use database;
 create table student (
 	ra int not null auto_increment,
 	name varchar(255) not null,
-	birthday date,
+	birthdate date,
 	email varchar(70) not null,
 	telephone varchar(19),
 	primary key (ra)
