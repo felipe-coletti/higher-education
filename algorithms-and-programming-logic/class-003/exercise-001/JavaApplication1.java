@@ -7,6 +7,6 @@ public class JavaApplication1 {
         
         double c = a + b;
         
-        System.out.println("A soma de " + a + " e " + b + " é: " + c + ".");
+        System.out.println("A soma entre " + a + " e " + b + " é: " + c + ".");
     }
 }
