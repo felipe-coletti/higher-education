@@ -1,16 +1,16 @@
 package javaapplication1;
 
-public class person {
+public class Person {
     String name;
     int age;
     double income;
 }
 
-public person() {
+public Person() {
     System.out.println("Objeto construído.");
 }
 
-public person(String name, int age, double income) {
+public Person(String name, int age, double income) {
     this.name = name;
     this.age = age;
     this.income = income;
