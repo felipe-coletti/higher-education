@@ -10,6 +10,6 @@ public class Main {
         
         cost = new Cost(consumption); 
         
-        printBill();
+        cost.printBill();
     }
 }
