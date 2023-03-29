@@ -5,7 +5,7 @@ public class JavaApplication1 {
         String[] salaries = {1200, 5000, 7400};
         
         for (int i = 0; i <= salaries.length; i++) {
-            salaries[i] += salaries;
+            salaries[i] += 200;
             
             System.out.println(salaries);
         }
