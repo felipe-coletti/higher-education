@@ -10,7 +10,6 @@ public class Main {
         String number = JOptionPane.showInputDialog("Digite o número da conta: ");
         float balance = Float.parseFloat(JOptionPane.showInputDialog("Digite o saldo da conta: "));
         float fee = Float.parseFloat(JOptionPane.showInputDialog("Digite o valor da taxa: "));
-        float depositValue = Float.parseFloat(JOptionPane.showInputDialog("Digite o valor a ser depositado: "));
         
         account = new Account(branch, number, balance, fee);
         
@@ -19,6 +18,8 @@ public class Main {
         float income = account.calculateIncome();
         
         JOptionPane.showMessageDialog(null, "O rendimento da conta é de R$ " + income + ".");
+        
+        float depositValue = Float.parseFloat(JOptionPane.showInputDialog("Digite o valor a ser depositado: "));
         
         account.depositMoney(depositValue);
         account.printData();
