@@ -1,16 +1,17 @@
 package javaapplication1;
 
 public class Cost {
-    float fare, aliquot, multiplicationFactor, suply;
+    double consumption, fare, aliquot, multiplicationFactor, suply;
   
-    public Cost(consumption) {
+    public Cost(double consumption) {
+        this.consumption = consumption;
         this.fare =  0.28172;
         this.aliquot = aliquot;
         this.multiplicationFactor = multiplicationFactor;
         this.suply = consumption * fare;
     }
   
-    float icms(consumption) {
+    double icms() {
         if (consumption <= 200) {
             aliquot = 0.12;
             multiplicationFactor = 0.136363;
@@ -22,7 +23,7 @@ public class Cost {
         return multiplicationFactor * suply * aliquot;
     }
       
-    float cofins(consumption) {
+    double cofins() {
         aliquot = 0.05033;
           
         if (consumption <= 200) {
@@ -34,7 +35,7 @@ public class Cost {
         return multiplicationFactor * suply * aliquot;
     }
       
-    float pis(consumption) {
+    double pis() {
         aliquot = 0.010927;
           
         if (consumption <= 200) {
@@ -46,11 +47,11 @@ public class Cost {
         return multiplicationFactor * suply * aliquot;
     }
   
-    float icmsCofins = cofins() * icms() * suply;
+    double icmsCofins = cofins() * icms() * suply;
   
-    float icmsPis = pis() * icms() * suply;
+    double icmsPis = pis() * icms() * suply;
   
-    void printBill(consumption) {
-        JOptionPane.showMessageDialog(null, "Dados da fatura:\nFornecimento: " + suply + "\nICMS: " + icms(consumption) + "\nCOFINS: " + cofins(consumption) + "\nPIS/PASESP: " + pis(consumption) + "\nICMS sobre COFINS: " + icmsCofins + "\nICMS sobre PIS/PASESP: " + icmsPis);
+    void printBill() {
+        JOptionPane.showMessageDialog(null, "Dados da fatura:\nFornecimento: " + suply + "\nICMS: " + icms() + "\nCOFINS: " + cofins() + "\nPIS/PASESP: " + pis() + "\nICMS sobre COFINS: " + icmsCofins + "\nICMS sobre PIS/PASESP: " + icmsPis);
     }
 }
