@@ -2,6 +2,6 @@ package javaapplication1;
 
 public class JavaApplication1 {
     public static void main(String[] args) {
-        System.out.println(" \n ");
+        System.out.println("Primeira frase de exemplo.\nSegunda frase de exemplo.");
     }
 }
