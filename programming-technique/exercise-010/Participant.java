@@ -3,12 +3,13 @@ package javaapplication1;
 import javax.swing.JOptionPane;
 
 public class Participant {
-    String name;
+    String name, category;
     int age;
   
     public Participant(String name, int age) {
         this.name = name;
         this.age = age;
+        this.category = verifyCategory();
     }
     
     public String getName() {
@@ -44,6 +45,6 @@ public class Participant {
     }
   
     void printData() {
-        JOptionPane.showMessageDialog(null, "Dados do participante:\nNome: " + name + "\nIdade: " + age + "\nCategoria: " + verifyCategory());
+        JOptionPane.showMessageDialog(null, "Dados do participante:\nNome: " + name + "\nIdade: " + age + "\nCategoria: " + category);
     }
 }
