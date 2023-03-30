@@ -25,7 +25,7 @@ public class Bulletin {
         }
     }
     
-    void printBulletin() {
+    void printData() {
         JOptionPane.showMessageDialog(null, "Dados do boletim:\nNota 1: " + firstGrade + "\nNota 2: " + secondGrade + "\nMédia: " + average + "\nConceito: " + verifyConcept());
     }
 }
