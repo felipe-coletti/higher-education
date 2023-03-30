@@ -15,7 +15,7 @@ public class Product {
         JOptionPane.showMessageDialog(null, "Dados do produto:\nMarca: " + brand + "\nValor: " + value);
     }
     
-    float calculateTax(float tax) {
-        return tax / 100 * value;
+    float calculateTaxValue(float taxRate) {
+        return taxRate / 100 * value;
     }
 }
