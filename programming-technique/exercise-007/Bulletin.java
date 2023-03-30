@@ -4,11 +4,13 @@ import javax.swing.JOptionPane;
 
 public class Bulletin {
     double firstGrade, secondGrade, average;
+    String concept;
     
     public Bulletin(double firstGrade, double secondGrade) {
         this.firstGrade = firstGrade;
         this.secondGrade = secondGrade;
         this.average = (firstGrade + secondGrade) / 2;
+        this.concept = verifyConcept();
     }
     
     String verifyConcept() {        
@@ -26,6 +28,6 @@ public class Bulletin {
     }
     
     void printData() {
-        JOptionPane.showMessageDialog(null, "Dados do boletim:\nNota 1: " + firstGrade + "\nNota 2: " + secondGrade + "\nMédia: " + average + "\nConceito: " + verifyConcept());
+        JOptionPane.showMessageDialog(null, "Dados do boletim:\nNota 1: " + firstGrade + "\nNota 2: " + secondGrade + "\nMédia: " + average + "\nConceito: " + concept);
     }
 }
