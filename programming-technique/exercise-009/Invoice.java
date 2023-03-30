@@ -2,10 +2,10 @@ package javaapplication1;
 
 import javax.swing.JOptionPane;
 
-public class Cost {
+public class Invoice {
     double consumption, fare, suply, icms, cofins, pis, icmsCofins, icmsPis;
 
-    public Cost(double consumption) {
+    public Invoice(double consumption) {
         this.consumption = consumption;
         this.fare =  0.28172;
         this.suply = consumption * fare;
@@ -16,7 +16,7 @@ public class Cost {
         this.icmsPis = icmsPis;
     }
 
-    void printBill() {
+    void printData() {
         if (consumption <= 200) {
             this.icms = suply * 0.136363;
             this.cofins = suply * 0.0614722;
