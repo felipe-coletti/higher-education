@@ -10,8 +10,8 @@ public class Main {
 
         System.out.println("Área: " + a);
 
-        Date date = new.Date(2, 9, 2015);
+        Date date = new.Date(2015, 9, 2);
 
-        System.out.println(date.day + "/" + date.month + "/" + date.year);
+        System.out.println(date.year + "/" + date.month + "/" + date.day);
     }
 }
