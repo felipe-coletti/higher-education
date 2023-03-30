@@ -8,8 +8,6 @@ public class Cost {
     public Cost(double consumption) {
         this.consumption = consumption;
         this.fare =  0.28172;
-        this.aliquot = aliquot;
-        this.multiplicationFactor = multiplicationFactor;
         this.suply = consumption * fare;
     }
   
