@@ -39,6 +39,8 @@ public class Participant {
             return "Juvenil";
         } else if (age >= 5) {
             return "Infantil";
+        } else if (age >= 0) {
+            return "Idade insuficiente";
         } else {
             return "Idade inválida";
         }
