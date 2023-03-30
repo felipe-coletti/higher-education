@@ -4,12 +4,12 @@ import javax.swing.JOptionPane;
 
 public class Main {
     public static void main(String[] args) {
-        Invoice invoice; 
+        Cost cost; 
         
         double consumption = Double.parseDouble(JOptionPane.showInputDialog("Digite o consumo de energia elétrica em kilowatts hora: "));
         
-        invoice = new Invoice(consumption); 
+        cost = new Cost(consumption); 
         
-        invoice.printData();
+        cost.printData();
     }
 }
