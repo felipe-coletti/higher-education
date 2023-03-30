@@ -27,6 +27,10 @@ public class Participant {
     public void setAge(int age) {
         this.age = age;
     }
+    
+    public String getCategory() {
+        return category;
+    }
   
     String verifyCategory() {        
         if (age >= 30) {
