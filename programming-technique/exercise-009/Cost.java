@@ -1,5 +1,7 @@
 package javaapplication1;
 
+import javax.swing.JOptionPane;
+
 public class Cost {
     double consumption, fare, aliquot, multiplicationFactor, suply;
   
