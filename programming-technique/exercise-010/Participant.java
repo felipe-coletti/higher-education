@@ -30,9 +30,9 @@ public class Participant {
   
     String verifyCategory() {        
         if (age >= 30) {
-            return "Sênior";
-        } else if (age >= 16) {
             return "Adulto";
+        } else if (age >= 16) {
+            return "Jovem adulto";
         } else if (age >= 11) {
             return "Adolescente";
         } else if (age >= 8) {
