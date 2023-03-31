@@ -35,11 +35,11 @@ const schedules = sequelize.define("schedules", {
 })
 
 schedules.create({
-    name: "Jeferson Roberto de Lis",
-    address: "Av Águia de Haia",
-    neighborhood: "Jd São Nicolau",
-    zipCode: 09239222,
-    city: "São Paulo",
-    state: "SP",
-    note: "Teste para aula"
+    name: "",
+    address: "",
+    neighborhood: "",
+    zipCode: 00000000,
+    city: "",
+    state: "",
+    note: ""
 })
