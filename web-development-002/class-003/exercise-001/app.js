@@ -14,7 +14,6 @@ app.get("/product", function(req, res){
 })
 
 app.get("/product/:item", function(req, res){
-    // res.send(req.params)
     res.send("Item: " + req.params.item)
 })
 
