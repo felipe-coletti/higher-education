@@ -33,13 +33,3 @@ const schedules = sequelize.define("schedules", {
         type: sequelize.STRING
     }
 })
-
-schedules.create({
-    name: "",
-    address: "",
-    neighborhood: "",
-    zipCode: 00000000,
-    city: "",
-    state: "",
-    note: ""
-})
