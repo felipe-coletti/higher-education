@@ -5,7 +5,7 @@ use musicApp;
 create table recordLabel (
 	id int not null auto_increment,
 	name varchar(255),
-  address varchar(255),
+        address varchar(255),
 	primary key(id)
 );
 
@@ -13,16 +13,16 @@ create table album (
 	id int not null auto_increment,
 	name varchar(255),
 	value float,
-  releaseDate date,
-  constraint recordLabelId foreign key (id) references recordLabel (id),
+        releaseDate date,
+        constraint recordLabelId foreign key (id) references recordLabel (id),
 	primary key(id)
 );
 
 create table music (
 	id int not null auto_increment,
 	name varchar(255),
-  playtime time,
-  track longBlob,
+        playtime time,
+        track longBlob,
 	primary key(id)
 );
 
