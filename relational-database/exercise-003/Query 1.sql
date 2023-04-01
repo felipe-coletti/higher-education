@@ -1,4 +1,4 @@
-create database parking;
+create database parking if not exists;
 
 use parking;
 
