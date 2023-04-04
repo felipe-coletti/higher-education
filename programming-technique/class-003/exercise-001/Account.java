@@ -10,11 +10,11 @@ public class Account {
         this.branch = branch;
         this.number = number;
         this.balance = balance;
-        this.fee = fee;
+        this.yieldRate = yieldRate;
     }
     
     void printData() {
-        JOptionPane.showMessageDialog(null, "Dados da conta corrente:\nAgência: " + branch + "\nNúmero: " + number + "\nSaldo: " + balance + "\nTaxa: " + fee);
+        JOptionPane.showMessageDialog(null, "Dados da conta corrente:\nAgência: " + branch + "\nNúmero: " + number + "\nSaldo: " + balance + "\nTaxa: " + yieldRate);
     }
     
     void depositMoney(float value) {
@@ -22,6 +22,6 @@ public class Account {
     }
     
     float calculateIncome() {
-        return fee / 100 * balance;
+        return yieldRate / 100 * balance;
     }
 }
