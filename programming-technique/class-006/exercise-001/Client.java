@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
 public class Client extends Person{
     private float debtAmount;
 
-    public Client(float debtAmount, String name, String telephone) {
+    public Client(String name, String telephone, float debtAmount) {
         super(name, telephone);
         this.debtAmount = debtAmount;
     }
@@ -23,7 +23,7 @@ public class Client extends Person{
         JOptionPane.showMessageDialog(null, "Valor da dívida: " + debtAmount);
     }
     
-    public float calculateInterest(float interestRate) {
+    public float calculateDebtInterest(float interestRate) {
         return interestRate / 100 * debtAmount;
     }
 }
