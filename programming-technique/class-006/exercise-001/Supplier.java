@@ -24,6 +24,6 @@ public class Supplier extends Person {
     }
     
     public float calculatePurchaseTax(float taxRate) {
-        return purchasePrice += taxRate / 100 * purchasePrice;
+        purchasePrice += taxRate / 100 * purchasePrice;
     }
 }
