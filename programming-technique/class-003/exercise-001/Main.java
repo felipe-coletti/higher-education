@@ -9,9 +9,9 @@ public class Main {
         String branch = JOptionPane.showInputDialog("Digite o número da agência: ");
         String number = JOptionPane.showInputDialog("Digite o número da conta: ");
         float balance = Float.parseFloat(JOptionPane.showInputDialog("Digite o saldo da conta: "));
-        float fee = Float.parseFloat(JOptionPane.showInputDialog("Digite o valor da taxa: "));
+        float rate = Float.parseFloat(JOptionPane.showInputDialog("Digite o valor da taxa: "));
         
-        account = new Account(branch, number, balance, fee);
+        account = new Account(branch, number, balance, rate);
         
         account.printData();
         
