@@ -12,10 +12,10 @@ public class Main {
         
         JOptionPane.showMessageDialog(null, "Juros da dívida: " + client.calculateDebtInterest(1.5f));
         
-        Supplier supplier = new Supplier("João", "(99) 99999-9999", 1500.89f);
+        Supplier supplier = new Supplier("Empresa x", "(99) 99999-9999", 1500.89f);
         
         supplier.printData();
-        
-        JOptionPane.showMessageDialog(null, "Imposto da compra: " + supplier.calculatePurchaseTax(12.5f));
+
+        supplier.calculatePurchaseTax(12.5f);
     }
 }
