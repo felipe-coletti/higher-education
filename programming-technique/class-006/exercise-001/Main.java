@@ -4,18 +4,18 @@ import javax.swing.JOptionPane;
 
 public class Main {
     public static void main(String[] args) {
-        Client client = new Client("", "(00) 91234-5678", 125.40f);
+        Debt debt = new Debt("João", "(00) 91234-5678", 125.40f);
         
-        client.setName("");
+        debt.setName("");
         
-        client.printData();
+        debt.printData();
         
-        JOptionPane.showMessageDialog(null, "Juros da dívida: " + client.calculateDebtInterest(1.5f));
+        JOptionPane.showMessageDialog(null, "Juros da dívida: " + debt.calculateInterest(1.5f));
         
-        Supplier supplier = new Supplier("", "(00) 91234-5678", 1500.89f);
+        Purchase purchase = new Purchase("João", "(00) 91234-5678", 1500.89f);
         
-        supplier.printData();
+        purchase.printData();
         
-        JOptionPane.showMessageDialog(null, "Imposto da compra: " + supplier.calculatePurchaseTax(12.5f));
+        JOptionPane.showMessageDialog(null, "Imposto da compra: " + purchase.calculateTax(12.5f));
     }
 }
