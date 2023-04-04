@@ -32,7 +32,7 @@ public class Participant {
         return category;
     }
   
-    String verifyCategory() {        
+    public String verifyCategory() {        
         if (age >= 30) {
             return "Sênior";
         } else if (age >= 16) {
@@ -50,7 +50,7 @@ public class Participant {
         }
     }
   
-    void printData() {
+    public void printData() {
         JOptionPane.showMessageDialog(null, "Dados do participante:\nNome: " + name + "\nIdade: " + age + "\nCategoria: " + category);
     }
 }
