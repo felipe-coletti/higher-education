@@ -23,7 +23,7 @@ public class Supplier extends Person {
         JOptionPane.showMessageDialog(null, "Valor da compra: " + purchasePrice);
     }
     
-    public float calculatePurchasePrice(float interestRate) {
-        return purchasePrice += interestRate / 100 * purchasePrice;
+    public float calculatePurchaseTax(float taxRate) {
+        return purchasePrice += taxRate / 100 * purchasePrice;
     }
 }
