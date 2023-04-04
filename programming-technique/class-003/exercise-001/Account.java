@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 
 public class Account {
     String branch, number;
-    float balance, fee;
+    float balance, yieldRate;
     
     public Account(String branch, String number, float balance, float fee) {
         this.branch = branch;
