@@ -22,6 +22,7 @@ public class Main {
         float depositValue = Float.parseFloat(JOptionPane.showInputDialog("Digite o valor a ser depositado: "));
         
         account.depositMoney(depositValue);
+
         account.printData();
     }
 }
