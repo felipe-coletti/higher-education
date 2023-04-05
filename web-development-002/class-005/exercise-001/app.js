@@ -6,6 +6,8 @@ const bodyParser = require("body-parser")
 app.engine("handlebars", handlebars({defaultLayout: "main"}))
 app.set("view engine", "handlebars")
 
+app.use(bodyParser.urlencoded({extended}))
+
 app.get("/", function(req, res){
     res.render("first-page")
 })
