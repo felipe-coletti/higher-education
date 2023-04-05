@@ -7,6 +7,7 @@ app.engine("handlebars", handlebars({defaultLayout: "main"}))
 app.set("view engine", "handlebars")
 
 app.use(bodyParser.urlencoded({extended: false}))
+app.set(bodyParser.json())
 
 app.get("/", function(req, res){
     res.render("first-page")
