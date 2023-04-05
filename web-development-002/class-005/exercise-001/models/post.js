@@ -1,6 +1,6 @@
 const database = require("./database")
 
-const schedules = sequelize.define("schedules", {
+const schedules = database.sequelize.define("schedules", {
     name: {
         type: sequelize.STRING
     },
