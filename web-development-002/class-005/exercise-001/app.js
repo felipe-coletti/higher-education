@@ -10,7 +10,7 @@ app.get("/", function(req, res){
 })
 
 app.post("/sign-up", function(req, res){
-    res.send("Formulário recebido.")
+    res.send("Formulário enviado com sucesso!")
 })
 
 app.listen(8081, function(){
