@@ -14,7 +14,7 @@ app.get("/", function(req, res){
 })
 
 app.post("/sign-up", function(req, res){
-    res.send("Formulário enviado com sucesso!")
+    res.send("Nome: " + req.body.name)
 })
 
 app.listen(8081, function(){
