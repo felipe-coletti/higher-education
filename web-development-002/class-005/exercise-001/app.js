@@ -15,7 +15,11 @@ app.get("/", function(req, res){
 })
 
 app.post("/sign-up", function(req, res){
-    res.send("Nome: " + req.body.name)
+    post.create({name: req.body.name}).then(function(){
+        res.send("Dados enviados com sucesso!")
+    }).catch(function(error){
+        res.send("Falha ao cadastrar: " + error)
+    })
 })
 
 app.listen(8081, function(){
