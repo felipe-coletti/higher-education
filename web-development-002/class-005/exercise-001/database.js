@@ -10,20 +10,7 @@ database.authenticate().then(function(){
     console.log("Falha ao conectar: " + error)
 })
 
-const schedules = sequelize.define("schedules", {
-    name: {
-        type: sequelize.STRING
-    },
-    telephone: {
-        type: sequelize.INTEGER
-    },
-    origin: {
-        type: sequelize.STRING
-    },
-    date: {
-        type: sequelize.DATE
-    },
-    note: {
-        type: sequelize.TEXT
-    }
-})
+module.exports = {
+    Sequelize: Sequelize,
+    sequelize : sequelize
+}
