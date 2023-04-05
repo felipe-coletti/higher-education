@@ -18,7 +18,7 @@ app.get("/product/:item", function(req, res){
 })
 
 app.get("/product/:item/:quantity", function(req, res){
-    res.send("Item: " + req.params.item + "<br>Quantidade: " + req.params.quantity)
+    res.send("Item: " + req.params.item + " Quantidade: " + req.params.quantity)
 })
 
 app.listen(8081, function(){
