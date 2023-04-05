@@ -1,21 +1,42 @@
-{{#each post)}
-  {{#dataValues}}
-    <div class="row">
-      <div class="col">
-        {{name}}
-      </div>
-      <div class="col">
-        {{telephone))
-      </div>
-      <div class="col">
-        {{origin}}
-      </div>
-      <div class="col">
-        {{date}}
-      </div>
-      <div class="col">
-        {{observation}}
-      </div>
-    </div>
-  {{/dataValues}}
-{{/each}}
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">SISTEMA WEB</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Cadastrar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Consultar</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="col bg-white">
+        <main>
+            {{#each post)}
+                {{#dataValues}}
+                    <div class="row">
+                        <div class="col">
+                            {{name}}
+                        </div>
+                        <div class="col">
+                            {{telephone))
+                        </div>
+                        <div class="col">
+                            {{origin}}
+                        </div>
+                        <div class="col">
+                            {{date}}
+                        </div>
+                        <div class="col">
+                            {{observation}}
+                        </div>
+                    </div>
+                {{/dataValues}}
+            {{/each}}
