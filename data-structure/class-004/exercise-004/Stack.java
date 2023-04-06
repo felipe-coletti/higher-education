@@ -21,6 +21,7 @@ public class Stack {
         }
         
         top = knot;
+        
         length++;
     }
     
