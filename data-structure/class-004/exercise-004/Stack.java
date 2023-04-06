@@ -39,7 +39,9 @@ public class Stack {
         } else {
             Object info = top.info;
             top = top.pointer;
+            
             length--;
+            
             return info;
         }
     }
