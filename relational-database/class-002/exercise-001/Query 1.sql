@@ -18,6 +18,6 @@ alter table student drop column gender;
 
 alter table student modify column cpf varchar(14);
 
-alter table student change column name completeName varchar(255);
+alter table student change column name fullName varchar(255);
 
 drop table student;
