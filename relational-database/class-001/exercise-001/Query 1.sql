@@ -23,6 +23,6 @@ create table grade (
 	id int not null auto_increment,
 	value decimal(2, 2) not null check (value between 0 and 10),
 	primary key (id),
-	constraint studentRa foreign key (ra) references student(ra),
+	constraint studentRa foreign key (ra) references student (ra),
 	constraint disciplineId foreign key (id) references discipline (id)
 );
