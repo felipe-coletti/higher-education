@@ -24,7 +24,7 @@ app.post("/sign-up", function(req, res){
     }).then(function(){
         res.send("Dados enviados com sucesso!")
     }).catch(function(error){
-        res.send("Falha ao cadastrar os dados: " + error)
+        res.send("Falha ao cadastrar: " + error)
     })
 })
 
