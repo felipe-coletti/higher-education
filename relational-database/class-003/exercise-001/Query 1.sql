@@ -24,8 +24,8 @@ create table budget (
 	date date,
 	entryForecast datetime,
 	paymentMethod varchar(255),
-	constraint vehicleId foreign key (id) references vehicle (id),
-	primary key(id)
+	primary key(id),
+	constraint vehicleId foreign key (id) references vehicle (id)
 );
 
 create table client (
@@ -41,16 +41,16 @@ create table vehicle (
 	chassis varchar(255),
 	model varchar(255),
 	color varchar(255),
-	constraint clientId foreign key (id) references client (id),
-	primary key(renavam)
+	primary key(renavam),
+	constraint clientId foreign key (id) references client (id)
 );
 
 create table clientReport (
 	id int not null auto_increment,
 	problem varchar(255),
 	date date,
-	constraint vehicleId foreign key (id) references vehicle (id),
-	primary key(id)
+	primary key(id),
+	constraint vehicleId foreign key (id) references vehicle (id)
 );
 
 alter table client modify column name completName varchar(255);
