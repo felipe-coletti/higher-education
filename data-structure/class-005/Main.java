@@ -25,6 +25,10 @@ public class Main {
                     task = (String) queue.unqueue();
                     JOptionPane.showMessageDialog(null, task);
                     break;
+                case 4:
+                    task = (String) queue.print();
+                    JOptionPane.showMessageDialog(null, task);
+                    break;
                 case 0:
                     break;
                 default:
