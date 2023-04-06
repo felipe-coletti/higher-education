@@ -68,7 +68,7 @@ create table serviceItem (
 	situation varchar(255)
 );
 
-alter table client change column name completeName varchar(255);
+alter table client change column name fullName varchar(255);
 
 alter table vehicle add column year int(4);
 
