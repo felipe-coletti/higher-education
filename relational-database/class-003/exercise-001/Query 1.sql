@@ -56,3 +56,15 @@ create table clientReport (
 alter table client modify column name completName varchar(255);
 
 alter table vehicle add column year int(4);
+
+drop table product;
+
+drop table service;
+
+drop table budget;
+
+drop table client;
+
+drop table vehicle;
+
+drop table clientReport;
