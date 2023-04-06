@@ -39,7 +39,7 @@ public class Queue {
         }
     }
     
-    Object desenparade() {
+    Object unqueue() {
         if (isItEmpty()) {
             System.out.println("A fila está vazia.");
             
