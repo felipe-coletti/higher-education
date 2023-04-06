@@ -27,7 +27,9 @@ public class Stack {
     
     Object top() {
         if (isItEmpty()) {
-            return "A lista está vazia.";
+            System.out.println("A lista está vazia.");
+            
+            return null;
         } else {
             return top.info;
         }
@@ -35,7 +37,9 @@ public class Stack {
     
     Object unstack() {
         if (isItEmpty()) {
-            return "A lista está vazia.";
+            System.out.println("A lista está vazia.");
+            
+            return null;
         } else {
             Object info = top.info;
             top = top.pointer;
