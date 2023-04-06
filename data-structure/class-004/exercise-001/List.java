@@ -33,17 +33,20 @@ public class List {
         
         for (int i = 0; i < length; i++) {
             System.out.println(knot.name + ": " + knot.telephone);
+            
             knot = knot.next;
         }
     }
     
     void findTelephone(String name) {
         Knot knot = start;
+        
         int equalsQuantity = 0;
         
         for (int i = 0; i < length; i++) {
             if (knot.name.equals(name)) {
                 System.out.println(knot.telephone);
+                
                 equalsQuantity++;
             }
             knot = knot.next;
