@@ -15,7 +15,7 @@ public class List {
         return length == 0;
     }
     
-    void add(String name, String telephone) {
+    void addItem(String name, String telephone) {
         Knot knot = new Knot(name, telephone);
         
         if (isItEmpty()) {
