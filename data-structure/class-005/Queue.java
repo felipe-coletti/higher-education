@@ -53,4 +53,18 @@ public class Queue {
             return info;
         }
     }
+    
+    String print() {
+        Knot knot = start;
+        
+        String task = "";
+        
+        for (int i = 0; i < length; i++) {
+            task += knot.info + "\n";
+            
+            knot = knot.next;
+        }
+        
+        return task;
+    }
 }
