@@ -26,7 +26,7 @@ public class Main {
                     JOptionPane.showMessageDialog(null, task);
                     break;
                 case 4:
-                    task = (String) queue.print();
+                    task = (String) queue.printQueue();
                     JOptionPane.showMessageDialog(null, task);
                     break;
                 case 0:
