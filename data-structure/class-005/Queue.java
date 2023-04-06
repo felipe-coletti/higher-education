@@ -54,7 +54,7 @@ public class Queue {
         }
     }
     
-    String print() {
+    String printQueue() {
         Knot knot = start;
         
         String task = "";
