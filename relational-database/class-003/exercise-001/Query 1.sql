@@ -53,6 +53,21 @@ create table clientReport (
 	constraint vehicleId foreign key (id) references vehicle (id)
 );
 
+create table productItem (
+	constraint productId foreign key (id) references product (id),
+	constraint budgetId foreign key (id) references budget (id),
+	cost float(6, 2),
+	situation varchar(255),
+	quantity int
+);
+
+create table serviceItem (
+	constraint servicetId foreign key (id) references service (id),
+	constraint budgetId foreign key (id) references budget (id),
+	cost float(6, 2),
+	situation varchar(255)
+);
+
 alter table client modify column name completName varchar(255);
 
 alter table vehicle add column year int(4);
