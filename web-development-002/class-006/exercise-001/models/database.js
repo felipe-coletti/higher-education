@@ -4,9 +4,9 @@ const database = sequelize("test", "root", "", {
     dialect: "mysql"
 })
 
-database.authenticate().then(function(){
+database.authenticate().then(function() {
     console.log("Conectado com sucesso!")
-}).catch(function(error){
+}).catch(function(error) {
     console.log("Falha ao conectar: " + error)
 })
 
