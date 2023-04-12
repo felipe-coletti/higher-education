@@ -12,5 +12,5 @@ database.authenticate().then(function(){
 
 module.exports = {
     Sequelize: Sequelize,
-    sequelize : sequelize
+    sequelize: sequelize
 }
