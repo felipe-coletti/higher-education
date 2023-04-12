@@ -10,24 +10,24 @@ app.set("view engine", "handlebars")
 app.use(bodyParser.urlencoded({extended: false}))
 app.set(bodyParser.json())
 
-app.get("/", function(req, res){
+app.get("/", function(req, res) {
     res.render("first-page")
 })
 
-app.post("/sign-up", function(req, res){
+app.post("/sign-up", function(req, res) {
     post.create({
         name: req.body.name,
         telephone: req.body.telephone,
         origin: req.body.origin,
         date: req.body.date,
         note: req.body.note
-    }).then(function(){
+    }).then(function() {
         res.send("Dados enviados com sucesso!")
-    }).catch(function(error){
+    }).catch(function(error) {
         res.send("Falha ao cadastrar: " + error)
     })
 })
 
-app.listen(8081, function(){
+app.listen(8081, function() {
     console.log("Servidor Ativo!")
 })
