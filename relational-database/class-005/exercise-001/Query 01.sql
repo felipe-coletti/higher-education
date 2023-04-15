@@ -15,7 +15,7 @@ desc `client`;
 
 show tables;
 
-INSERT INTO client (
+insert into client (
 	name,
 	cpf,
 	street,
@@ -24,17 +24,18 @@ INSERT INTO client (
 	city,
 	federativeUnit,
 	zipCode
-) VALUES (
-	'GILBERTO',
-	'12345678901',
-	'AV. Astronautas',
-	'1333',
-	'Cidade Jardim',
-	'S. J. Dos Campos',
-	'SP', '12227-220'
+) values (
+	'Primeiro exemplo',
+	'CPF',
+	'Rua',
+	'Número',
+	'Bairro',
+	'Cidade',
+	'UF',
+	'CEP'
 );
 
-INSERT INTO client (
+insert into client (
 	name,
 	cpf,
 	street,
@@ -43,12 +44,19 @@ INSERT INTO client (
 	city,
 	federativeUnit,
 	zipCode
-) VALUES (
-	'EDUARDO',
-	'12345678902',
-	'AV. X', '1456',
-	'Vila',
-	'Rio de Janeiro',
-	'RJ',
-	'35000000'
+) values (
+	'Segundo exemplo',
+	'CPF',
+	'Rua',
+	'Número',
+	'Bairro',
+	'Cidade',
+	'UF',
+	'CEP'
 );
+
+select * from `client`;
+
+delete from `client` where id = 1;
+
+delete from `client`;
