@@ -1,6 +1,6 @@
-create database database if not exists;
+create database college if not exists;
 
-use database;
+use college;
 
 create table student (
 	ra int not null auto_increment,
