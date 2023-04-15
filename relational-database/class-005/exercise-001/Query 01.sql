@@ -1,3 +1,7 @@
+create database if not exists test;
+
+use test;
+
 create table client (
 	id int auto_increment,
 	name varchar(50),
