@@ -1,4 +1,4 @@
-create database musicApp if not exists;
+create database if not exists musicApp;
 
 use musicApp;
 
