@@ -1,4 +1,4 @@
-create database college if not exists;
+create database if not exists college;
 
 use college;
 
