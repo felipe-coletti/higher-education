@@ -7,14 +7,14 @@ public class JavaApplication1 {
         Scanner header = new Scanner(System.in);
         
         System.out.println("Digite o código da peça: ");
-        int pieceCode = header.nextInt();
+        int code = header.nextInt();
         System.out.println("Digite o valor da peça: ");
-        float pieceValue = header.nextFloat();
+        float value = header.nextFloat();
         System.out.println("Digite a quantidade de peças: ");
-        int pieceQuantity = header.nextInt();
+        int quantity = header.nextInt();
         
-        float totalValue = pieceValue * pieceQuantity;
+        float totalValue = value * quantity;
         
-        System.out.println("O valor total das peças com o código " + pieceCode + " é: R$ " + totalValue + ".");
+        System.out.println("O valor total das peças com o código " + code + " é: R$ " + value + ".");
     }
 }
