@@ -9,9 +9,9 @@ public class JavaApplication1 {
         System.out.println("Digite a quantidade mínima de peçass: ");
         int minimumQuantity = header.nextInt();
         System.out.println("Digite a quantidade máxima de peças: ");
-        int maximumQauntity = header.nextInt();
+        int maximumQuantity = header.nextInt();
         
-        int averageStock = minimumQuantity * maximumQauntity / 2;
+        int averageStock = minimumQuantity * maximumQuantity / 2;
         
         System.out.println("A quantidade média de peças no estoque é: " + averageStock + ".");
     }
