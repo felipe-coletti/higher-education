@@ -15,8 +15,10 @@ public class JavaApplication1 {
     }
     
     static float multiplication(float a, float b) {
+        float c = 0;
+        
         for (int i = 0; i < b; i++) {
-            float c += a;
+            c += a;
         }
         
         return c;
