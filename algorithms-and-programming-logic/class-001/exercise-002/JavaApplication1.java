@@ -13,6 +13,6 @@ public class JavaApplication1 {
         
         int averageQuantity = minimumQuantity * maximumQuantity / 2;
         
-        System.out.println("A quantidade média de peças no estoque é: " + averageQuantity + ".");
+        System.out.println("A quantidade média de peças é: " + averageQuantity + ".");
     }
 }
