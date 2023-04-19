@@ -6,15 +6,16 @@ public class JavaApplication1 {
     public static void main(String[] args) {
         Scanner header = new Scanner(System.in);
         
-        int result = 0;
+        int number;
+        int sum = 0;
 
         do {
             System.out.println("Digite um número inteiro: ");
-            int number = header.nextInt();
+            number = header.nextInt();
             
-            result += number;
+            sum += number;
             
-            System.out.println("A soma é: " + result + ".");
+            System.out.println("A soma é: " + sum + ".");
         } while(number != 0);
     }
 }
