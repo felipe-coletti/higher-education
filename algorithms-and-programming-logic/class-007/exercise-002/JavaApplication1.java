@@ -9,7 +9,7 @@ public class JavaApplication1 {
         float grades[] = new float[10];
         float approved = 0;
         
-        System.out.println("Digite as 10 notas: ");
+        System.out.println("Digite 10 notas: ");
         
         for (int i = 0; i < grades.length; i++) {
             grades[i] = header.nextFloat();
