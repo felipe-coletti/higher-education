@@ -43,7 +43,7 @@ app.get("/delete/:id", function(req, res){
         },
         force: true
     }).then(function(post){
-        res.redirect("/sign-up")
+        res.redirect("/")
     }).catch(function(erro){
         console.log("Erro ao deletar os dados: " + erro)
     })
