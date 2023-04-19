@@ -10,9 +10,9 @@ public class JavaApplication1 {
         float number = header.nextFloat();
         
         if (number % 2 == 0) {
-            System.out.println("O número digitado é par.");
+            System.out.println("O número " + number + " é par.");
         } else {
-            System.out.println("O número digitado é impar.");
+            System.out.println("O número " + number + " é impar.");
         }
     }
 }
