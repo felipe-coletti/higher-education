@@ -12,24 +12,24 @@ sequelize.authenticate().then(function() {
 
 const schedules = sequelize.define("schedules", {
     name: {
-        type: sequelize.STRING
+        type: Sequelize.STRING
     },
     address: {
-        type: sequelize.STRING
+        type: Sequelize.STRING
     },
     neighborhood: {
-        type: sequelize.STRING
+        type: Sequelize.STRING
     },
     zipCode: {
-        type: sequelize.INTEGER
+        type: Sequelize.INTEGER
     },
     city: {
-        type: sequelize.STRING
+        type: Sequelize.STRING
     },
     state: {
-        type: sequelize.STRING
+        type: Sequelize.STRING
     },
     note: {
-        type: sequelize.STRING
+        type: Sequelize.STRING
     }
 })
