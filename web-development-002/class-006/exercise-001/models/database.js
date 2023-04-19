@@ -1,5 +1,5 @@
 const sequelize = require("sequelize")
-const database = sequelize("test", "root", "", {
+const database = new sequelize("test", "root", "", {
     host: "localhost",
     dialect: "mysql"
 })
