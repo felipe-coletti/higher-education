@@ -28,19 +28,6 @@ app.post("/sign-up", function(req, res) {
     })
 })
 
-app.get("/delete/:id", function(req, res){
-    post.destroy({
-        where: {
-            id: req.params.id
-        },
-        force: true
-    }).then(function(post){
-        res.redirect("/sign-up")
-    }).catch(function(erro){
-        console.log("Erro ao deletar os dados: " + erro)
-    })
-})
-
 app.get("/consult", function(req, res) {
     post.findAll().then(function(post) {
         res.render("consult", {post})
