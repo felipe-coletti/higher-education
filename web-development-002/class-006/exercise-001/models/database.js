@@ -1,10 +1,10 @@
-const sequelize = require("sequelize")
-const database = new sequelize("test", "root", "", {
+const Sequelize = require("sequelize")
+const sequelize = new Sequelize("test", "root", "", {
     host: "localhost",
     dialect: "mysql"
 })
 
-database.authenticate().then(function() {
+sequelize.authenticate().then(function() {
     console.log("Conectado com sucesso!")
 }).catch(function(error) {
     console.log("Falha ao conectar: " + error)
