@@ -14,6 +14,7 @@ public class JavaApplication1 {
         
         for(int i = 0; i < grades.length; i++) {
             grades[i] = header.nextFloat();
+            
             average += grades[i];
         }
         
