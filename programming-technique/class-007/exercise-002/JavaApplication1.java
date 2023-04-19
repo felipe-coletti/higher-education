@@ -4,8 +4,8 @@ import javax.swing.JOptionPane;
 
 public class JavaApplication1 {
     public static void main(String[] args) {
-        String[] names = new String[4];
-        Float[] grades = new Float[4];
+        String names[] = new String[4];
+        Float grades[] = new Float[4];
         float average = 0;
         
         for (int i = 0; i < 4; i++) {
