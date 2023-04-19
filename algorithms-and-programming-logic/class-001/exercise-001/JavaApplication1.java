@@ -8,7 +8,7 @@ public class JavaApplication1 {
         
         System.out.println("Digite o código da peça: ");
         int code = header.nextInt();
-        System.out.println("Digite o valor da peça: ");
+        System.out.println("Digite o preço da peça: ");
         float price = header.nextFloat();
         System.out.println("Digite a quantidade de peças: ");
         int quantity = header.nextInt();
