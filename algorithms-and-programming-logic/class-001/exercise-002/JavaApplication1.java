@@ -11,8 +11,8 @@ public class JavaApplication1 {
         System.out.println("Digite a quantidade máxima de peças: ");
         int maximumQuantity = header.nextInt();
         
-        int averageStock = minimumQuantity * maximumQuantity / 2;
+        int averageQuantity = minimumQuantity * maximumQuantity / 2;
         
-        System.out.println("A quantidade média de peças no estoque é: " + averageStock + ".");
+        System.out.println("A quantidade média de peças no estoque é: " + averageQuantity + ".");
     }
 }
