@@ -2,19 +2,19 @@ const database = require("./database")
 
 const schedules = database.sequelize.define("schedules", {
     name: {
-        type: database.sequelize.STRING
+        type: database.Sequelize.STRING
     },
     telephone: {
-        type: database.sequelize.INTEGER
+        type: database.Sequelize.INTEGER
     },
     origin: {
-        type: database.sequelize.STRING
+        type: database.Sequelize.STRING
     },
     date: {
-        type: database.sequelize.DATE
+        type: database.Sequelize.DATE
     },
     note: {
-        type: database.sequelize.TEXT
+        type: database.Sequelize.TEXT
     }
 })
 
