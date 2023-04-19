@@ -17,6 +17,7 @@ public class JavaApplication1 {
         
         for (int i = 0; i < grades.length; i++) {
             System.out.print("A nota do" + (i + 1) + "º aluno é: " + grades[i] + ".");
+            
             if (i > 7) {
                 approved++;
             }
