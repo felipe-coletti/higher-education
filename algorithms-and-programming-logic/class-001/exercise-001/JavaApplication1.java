@@ -13,7 +13,7 @@ public class JavaApplication1 {
         System.out.println("Digite a quantidade de peças: ");
         int quantity = header.nextInt();
         
-        float totalPrice = price * quantity;
+        float totalValue = value * quantity;
         
         System.out.println("O valor total das peças com o código " + code + " é: R$ " + totalValue + ".");
     }
