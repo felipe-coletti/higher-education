@@ -10,12 +10,19 @@ public class JavaApplication1 {
         System.out.println("Digite um texto: ");
         String firstText = header.next();
         System.out.println("Digite um número inteiro: ");
-        int firstValue = header.nextInt();
+        int firstNumber = header.nextInt();
         System.out.println("Digite um valor monetário: ");
         float firstCurrency = header.nextFloat();
         
         String secondText = JOptionPane.showInputDialog("Digite um texto: ");
-        int secondValue = Integer.parseInt(JOptionPane.showInputDialog("Digite um número inteiro: "));
+        int secondNumber = Integer.parseInt(JOptionPane.showInputDialog("Digite um número inteiro: "));
         float secondCurrency = Float.parseFloat(JOptionPane.showInputDialog("Digite um valor monetário: "));
+        
+        System.out.println("O primeiro texto é: " + firstText);
+        System.out.println("O primeiro número é: " + firstNumber);
+        System.out.println("O primeiro valor monetário é: " + firstCurrency);
+        System.out.println("O segundo texto é: " + secondText);
+        System.out.println("O segundo número é: " + secondNumber);
+        System.out.println("O segundo valor monetário é: " + secondCurrency);
     }
 }
