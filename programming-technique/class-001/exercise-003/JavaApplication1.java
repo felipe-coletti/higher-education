@@ -14,16 +14,16 @@ public class JavaApplication1 {
         System.out.println("Digite um valor monetário: ");
         float firstCurrency = header.nextFloat();
         
+        System.out.println("O texto é: " + firstText);
+        System.out.println("O número é: " + firstNumber);
+        System.out.println("O valor monetário é: " + firstCurrency);
+        
         String secondText = JOptionPane.showInputDialog("Digite um texto: ");
         int secondNumber = Integer.parseInt(JOptionPane.showInputDialog("Digite um número inteiro: "));
         float secondCurrency = Float.parseFloat(JOptionPane.showInputDialog("Digite um valor monetário: "));
         
-        System.out.println("O primeiro texto é: " + firstText);
-        System.out.println("O primeiro número é: " + firstNumber);
-        System.out.println("O primeiro valor monetário é: " + firstCurrency);
-        
-        JOptionPane.showMessageDialog("O segundo texto é: " + secondText);
-        JOptionPane.showMessageDialog("O segundo número é: " + secondNumber);
-        JOptionPane.showMessageDialog("O segundo valor monetário é: " + secondCurrency);
+        JOptionPane.showMessageDialog("O texto é: " + secondText);
+        JOptionPane.showMessageDialog("O número é: " + secondNumber);
+        JOptionPane.showMessageDialog("O valor monetário é: " + secondCurrency);
     }
 }
