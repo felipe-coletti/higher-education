@@ -21,8 +21,9 @@ public class JavaApplication1 {
         System.out.println("O primeiro texto é: " + firstText);
         System.out.println("O primeiro número é: " + firstNumber);
         System.out.println("O primeiro valor monetário é: " + firstCurrency);
-        System.out.println("O segundo texto é: " + secondText);
-        System.out.println("O segundo número é: " + secondNumber);
-        System.out.println("O segundo valor monetário é: " + secondCurrency);
+        
+        JOptionPane.showMessageDialog("O segundo texto é: " + secondText);
+        JOptionPane.showMessageDialog("O segundo número é: " + secondNumber);
+        JOptionPane.showMessageDialog("O segundo valor monetário é: " + secondCurrency);
     }
 }
