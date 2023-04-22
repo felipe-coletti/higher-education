@@ -21,10 +21,10 @@ public class JavaApplication1 {
             serviceFee = dailyRates / 100 * 5;
         }
         
-        float totalValue = dailyRates + serviceFee;
+        float totalPrice = dailyRates + serviceFee;
         
-        System.out.println("O valor das diárias é de R$ " + dailyRates + ".");
-        System.out.println("O valor da taxa de serviço é de R$ " + serviceFee + ".");
-        System.out.println("O valor total a pagar é de R$ " + totalValue + ".");
+        System.out.println("O preço das diárias é de R$ " + dailyRates + ".");
+        System.out.println("A taxa de serviço é de R$ " + serviceFee + ".");
+        System.out.println("O preço total a pagar é de R$ " + totalPrice + ".");
     }
 }
