@@ -1,5 +1,7 @@
 package javaapplication1;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         Array array = new Array(5);
@@ -13,6 +15,6 @@ public class Main {
         
         System.out.println(array.getLength());
         
-        System.out.println(array.toString());
+        System.out.println(Arrays.toString(array.getElements()));
     }
 }
