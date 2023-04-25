@@ -9,6 +9,14 @@ public class Array {
         this.length = 0;
     }
     
+    public String getElements() {
+        return elements;
+    }
+    
+    public int getLength() {
+        return length;
+    }
+    
     public void add(String element) throws Exception {
         if (length < elements.length) {
             elements[length] = element;
@@ -16,13 +24,5 @@ public class Array {
         } else {
             throw new Exception("O vetor está cheio.");
         }
-    }
-    
-    public int getLength() {
-        return length;
-    }
-    
-    public String getElements() {
-        return elements;
     }
 }
