@@ -24,7 +24,7 @@ public class Array {
         return length;
     }
     
-    public void printData() {
-        System.out.println(Arrays.toString(elements));
+    public String toString() {
+        return Arrays.toString(elements);
     }
 }
