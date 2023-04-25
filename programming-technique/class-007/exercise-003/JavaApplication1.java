@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 
 public class JavaApplication1 {
     public static void main(String[] args) {
-        Float temperatures[] = new Float[7];
+        float temperatures[] = new Float[7];
         float average = 0, warmerDays = 0, colderays = 0;
         
         for (int i = 0; i < temperatures.length; i++) {
