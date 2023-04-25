@@ -13,6 +13,6 @@ public class Main {
         
         System.out.println(array.getLength());
         
-        array.printData();
+        System.out.println(array.toString());
     }
 }
