@@ -1,7 +1,9 @@
 package javaapplication1;
 
+import java.util.Arrays;
+
 public class Array {
-    private String[] elements;
+    private final String[] elements;
     private int length;
     
     public Array(int length) {
@@ -16,5 +18,13 @@ public class Array {
         } else {
             throw new Exception("O vetor está cheio.");
         }
+    }
+    
+    public int getLength() {
+        return length;
+    }
+    
+    public void printData() {
+        System.out.println(Arrays.toString(elements));
     }
 }
