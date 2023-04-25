@@ -10,5 +10,9 @@ public class Main {
         } catch (Exception exception) {
             exception.printStackTrace();
         }
+        
+        System.out.println(array.getLength());
+        
+        array.printData();
     }
 }
