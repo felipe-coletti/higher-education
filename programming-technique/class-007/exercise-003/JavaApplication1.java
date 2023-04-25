@@ -25,7 +25,7 @@ public class JavaApplication1 {
         }
         
         JOptionPane.showMessageDialog(null, "A média de temperatura da semana foi de " + average + "°C.");
-        JOptionPane.showMessageDialog(null, warmerDays + "dias ficaram acima da média de temperatura");
-        JOptionPane.showMessageDialog(null, colderays + "dias ficaram abaixo da média de temperatura");
+        JOptionPane.showMessageDialog(null, warmerDays + "dias ficaram acima da média de temperatura.");
+        JOptionPane.showMessageDialog(null, colderays + "dias ficaram abaixo da média de temperatura.");
     }
 }
