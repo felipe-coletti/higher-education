@@ -1,7 +1,5 @@
 package javaapplication1;
 
-import java.util.Arrays;
-
 public class Array {
     private final String[] elements;
     private int length;
@@ -24,7 +22,7 @@ public class Array {
         return length;
     }
     
-    public String toString() {
-        return Arrays.toString(elements);
+    public String getElements() {
+        return elements;
     }
 }
