@@ -17,7 +17,7 @@ public class JavaApplication1 {
         
         for (int i = 0; i < temperatures.length; i++) {
             if (temperatures[i] > average) {
-                warmerDays ++;
+                warmerDays++;
             }
             if (temperatures[i] < average) {
                 colderays++;
