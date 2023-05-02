@@ -9,7 +9,7 @@ public class Array {
         this.length = 0;
     }
     
-    public String getElements() {
+    public String[] getElements() {
         return elements;
     }
     
