@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -142,25 +143,34 @@ section {
 }
 
 form {
-    align-self: center;
     padding: 2%;   
+}
+
+label {
+    margin-bottom: 5px;
 }
 
 label, legend {
     font-size: 0.7em;
 }
 
+textarea {
+    resize: none;
+}
+
 input, select, textarea {
     padding: 10px;
     border-radius: 15px;
-    width: 80%;
+}
+
+legend, input, select, textarea {
+    margin-bottom: 20px;
 }
 
 fieldset {
-    display: block;
-    width: 70%;
+    display: flex;
     border: none;
-    margin: auto;
+    flex-direction: column;
 }
 
 button {
