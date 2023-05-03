@@ -148,11 +148,12 @@ section {
 }
 
 form {
-    padding: 2%;   
+    padding-block: 2%;
+    padding-inline: 20%;   
 }
 
-label {
-    margin-bottom: 5px;
+legend {
+    margin-bottom: 7.5px;
 }
 
 label, legend {
@@ -169,10 +170,6 @@ input, select, textarea {
     border-radius: 15px;
 }
 
-legend, input, select, textarea {
-    margin-bottom: 20px;
-}
-
 fieldset {
     display: flex;
     border: none;
@@ -181,7 +178,8 @@ fieldset {
 
 button {
     width: 35%;
-    padding: 10px;  
+    padding: 10px;
+    margin: 2.5px;
 }
 
 .required::after {
