@@ -9,10 +9,6 @@ public class Array {
         this.length = 0;
     }
     
-    public String[] getElements() {
-        return elements;
-    }
-    
     public int getLength() {
         return length;
     }
@@ -24,5 +20,21 @@ public class Array {
         } else {
             throw new Exception("O vetor está cheio.");
         }
+    }
+    
+    public String printData() {
+        String result = "["
+        
+        for (int i = 0; i < length; i++) {
+            result += elements[i];
+            
+            if (i < length - 1) {
+                result += ", ";
+            }
+        }
+        
+        result += "]"
+        
+        return result
     }
 }
