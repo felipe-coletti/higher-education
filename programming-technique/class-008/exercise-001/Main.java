@@ -15,6 +15,6 @@ public class Main {
         
         System.out.println(array.getLength());
         
-        System.out.println(Arrays.toString(array.getElements()));
+        System.out.println(array.printData());
     }
 }
