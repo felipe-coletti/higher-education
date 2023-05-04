@@ -13,7 +13,7 @@ public class Bulletin {
         this.concept = verifyConcept();
     }
     
-    String verifyConcept() {        
+    public String verifyConcept() {        
         if (average >= 9) {
             return "A";
         } else if (average >= 7) {
@@ -27,7 +27,7 @@ public class Bulletin {
         }
     }
     
-    void printData() {
+    public void printData() {
         JOptionPane.showMessageDialog(null, "Dados do boletim:\nNota 1: " + firstGrade + "\nNota 2: " + secondGrade + "\nMédia: " + average + "\nConceito: " + concept);
     }
 }
