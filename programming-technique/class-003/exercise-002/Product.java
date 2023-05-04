@@ -11,11 +11,11 @@ public class Product {
         this.value = value;
     }
     
-    void printData() {
+    public void printData() {
         JOptionPane.showMessageDialog(null, "Dados do produto:\nMarca: " + brand + "\nValor: " + value);
     }
     
-    float calculateTaxValue(float taxRate) {
+    public float calculateTaxValue(float taxRate) {
         return taxRate / 100 * value;
     }
 }
