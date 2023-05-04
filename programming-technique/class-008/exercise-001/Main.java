@@ -7,11 +7,13 @@ public class Main {
         Array array = new Array(5);
         
         try {
-            array.add("Primeiro elemento");
-            array.add("Segundo elemento");
+            array.addInEnd("Primeiro elemento");
+            array.addInEnd("Segundo elemento");
         } catch (Exception exception) {
             exception.printStackTrace();
         }
+        
+        System.out.println(array.add(0, "Primeiro elemento"));
         
         System.out.println(array.getLength());
         
