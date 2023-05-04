@@ -51,6 +51,7 @@ public class List {
             }
             knot = knot.next;
         }
+        
         if (equalsQuantity == 0) {
             System.out.println("Não existe nenhum telefone cadastrado com esse nome.");
         }
