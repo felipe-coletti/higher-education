@@ -23,14 +23,14 @@ public class Array {
     }
     
     public String printData() {
-        String result = "["
+        String result = "[";
         
         for (int i = 0; i < length - 1; i++) {
             result += elements[i] + ", ";
         }
         
-        result += elements[length - 1] + "]"
+        result += elements[length - 1] + "]";
         
-        return result
+        return result;
     }
 }
