@@ -15,6 +15,8 @@ public class Main {
         
         System.out.println(array.getLength());
         
+        System.out.println(array.search(0));
+        
         System.out.println(array.printData());
     }
 }
