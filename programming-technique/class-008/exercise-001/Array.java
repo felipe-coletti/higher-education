@@ -22,12 +22,21 @@ public class Array {
         }
     }
     
-    public String search(int position) throws Exception {
+    public String searchElement(int position) throws Exception {
         if (position >= 0 && position < length) {
             return elements[position];
         } else {
             throw new Exception("Posição inválida.");
         }
+    }
+    
+    public String searchIndex(String element) throws Exception {
+        for (int i = 0; i < length; i++) {
+            if (elements[i] = element) {
+                return i;
+            }
+        }
+        return -1;
     }
     
     public String printData() {
