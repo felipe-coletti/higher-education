@@ -13,6 +13,18 @@ public class Array {
         return length;
     }
     
+    private void increaseCapacity() {
+        if (length == elements.length) {
+            String largerArray[] = new String[elements.length * 2];
+            
+            for (int i = 0; i < length; i++) {
+                largerArray[i] = elements[i];
+            }
+            
+            elements = largerArray;
+        }
+    }
+    
     public void addInEnd(String element) throws Exception {
         if (length < elements.length) {
             elements[length] = element;
