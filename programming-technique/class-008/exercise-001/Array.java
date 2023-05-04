@@ -26,6 +26,7 @@ public class Array {
     }
     
     public void addInEnd(String element) throws Exception {
+        increaseCapacity();
         if (length < elements.length) {
             elements[length] = element;
             length++;
@@ -34,7 +35,8 @@ public class Array {
         }
     }
     
-    public void add(int position, String element) throws Exception {
+    public boolean add(int position, String element) throws Exception {
+        increaseCapacity();
         if (position >= 0 && position < length) {
             for (int i = length; i > position; i--) {
                 elements[i] = elements[i - 1];
