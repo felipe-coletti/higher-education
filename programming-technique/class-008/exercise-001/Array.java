@@ -22,6 +22,14 @@ public class Array {
         }
     }
     
+    public String search(int position) throws Exception {
+        if (position >= 0 && position < length) {
+            return elements[position];
+        } else {
+            throw new Exception("Posição inválida.");
+        }
+    }
+    
     public String printData() {
         String result = "[";
         
