@@ -25,15 +25,11 @@ public class Array {
     public String printData() {
         String result = "["
         
-        for (int i = 0; i < length; i++) {
-            result += elements[i];
-            
-            if (i < length - 1) {
-                result += ", ";
-            }
+        for (int i = 0; i < length - 1; i++) {
+            result += elements[i] + ", ";
         }
         
-        result += "]"
+        result += elements[length - 1] + "]"
         
         return result
     }
