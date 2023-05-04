@@ -13,13 +13,27 @@ public class Array {
         return length;
     }
     
-    public void add(String element) throws Exception {
+    public void addInEnd(String element) throws Exception {
         if (length < elements.length) {
             elements[length] = element;
             length++;
         } else {
             throw new Exception("O vetor está cheio.");
         }
+    }
+    
+    public void add(int position, String element) throws Exception {
+        if (position >= 0 && position < length) {
+            for (int i = length; i > position; i--) {
+                elements[i] = elements[i - 1];
+            }
+            elements[position] = element;
+            length++;
+        } else {
+            throw new Exception("Posição inválida.");
+        }
+        
+        return true;
     }
     
     public String searchElement(int position) throws Exception {
