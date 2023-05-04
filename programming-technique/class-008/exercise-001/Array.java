@@ -30,7 +30,7 @@ public class Array {
         }
     }
     
-    public String searchIndex(String element) throws Exception {
+    public String searchIndex(String element) {
         for (int i = 0; i < length; i++) {
             if (elements[i] = element) {
                 return i;
