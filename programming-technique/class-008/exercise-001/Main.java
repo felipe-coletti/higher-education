@@ -21,6 +21,8 @@ public class Main {
         
         System.out.println(array.searchIndex("Primeiro elemento"));
         
+        array.remove(1);
+        
         System.out.println(array.printData());
     }
 }
