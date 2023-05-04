@@ -13,15 +13,15 @@ public class Account {
         this.yieldRate = yieldRate;
     }
     
-    void printData() {
+    public void printData() {
         JOptionPane.showMessageDialog(null, "Dados da conta corrente:\nAgência: " + branch + "\nNúmero: " + number + "\nSaldo: " + balance + "\nTaxa: " + yieldRate);
     }
     
-    void depositMoney(float value) {
+    public void depositMoney(float value) {
         balance += value;
     }
     
-    float calculateIncome() {
+    public float calculateIncome() {
         return yieldRate / 100 * balance;
     }
 }
