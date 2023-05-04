@@ -67,6 +67,17 @@ public class Array {
         return -1;
     }
     
+    public void remove(int position) throws Exceptio {
+        if (position >= 0 && position < length) {
+            for (int i = position; i < length; i++) {
+                elements[i] = elements[i + 1];
+            }
+            length--;
+        } else {
+            throw new Exception("Posição inválida.");
+        }
+    }
+    
     public String printData() {
         String result = "[";
         
