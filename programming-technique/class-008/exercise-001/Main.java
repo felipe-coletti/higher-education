@@ -17,7 +17,7 @@ public class Main {
         
         System.out.println(array.searchElement(0));
         
-        System.out.println(array.searchIndex(0));
+        System.out.println(array.searchIndex("Primeiro elemento"));
         
         System.out.println(array.printData());
     }
