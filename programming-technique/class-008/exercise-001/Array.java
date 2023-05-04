@@ -67,7 +67,7 @@ public class Array {
         return -1;
     }
     
-    public void remove(int position) throws Exceptio {
+    public void remove(int position) throws Exception {
         if (position >= 0 && position < length) {
             for (int i = position; i < length; i++) {
                 elements[i] = elements[i + 1];
