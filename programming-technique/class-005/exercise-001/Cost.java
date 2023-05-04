@@ -16,7 +16,7 @@ public class Cost {
         this.icmsPis = icmsPis;
     }
 
-    void printData() {
+    public void printData() {
         if (consumption <= 200) {
             this.icms = suply * 0.136363;
             this.cofins = suply * 0.0614722;
