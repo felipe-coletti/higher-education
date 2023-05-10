@@ -57,8 +57,7 @@ app.get("/edit/:id", function(req, res) {
     post.findAll({
         where: {
             id: req.params.id
-        },
-        force: true
+        }
     }).then(function(post){
         res.render("edit", {post})
     }).catch(function(error) {
@@ -70,8 +69,7 @@ app.get("/delete/:id", function(req, res){
     post.destroy({
         where: {
             id: req.params.id
-        },
-        force: true
+        }
     }).then(function(post){
         res.redirect("/")
     }).catch(function(erro){
