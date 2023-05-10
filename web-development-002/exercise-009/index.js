@@ -1,7 +1,7 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
-const serviceAccount = require("key file");
+const serviceAccount = require("");
 
 initializeApp({
   credential: cert(serviceAccount)
@@ -15,4 +15,4 @@ const data = {
   country: 'country'
 };
 
-const res = db.collection('table name').doc('LA').set(data);
+const res = db.collection('').doc('LA').set(data);
