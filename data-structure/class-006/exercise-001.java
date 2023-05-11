@@ -8,16 +8,16 @@ public class JavaApplication1 {
         
         for (int i = 0; i < vector.length; i++) {
             int smallerNumber = vector[i];
-            int k = i;
+            int smallerNumberIndex = i;
             
             for (int j = i; j < vector.length; j++) {
                 if (vector[j] < smallerNumber) {
                     smallerNumber = vector[j];
-                    k = j;
+                    smallerNumberIndex = j;
                 }
             }
             
-            vector[k] = vector[i];
+            vector[smallerNumberIndex] = vector[i];
             vector[i] = smallerNumber;
         }
         
