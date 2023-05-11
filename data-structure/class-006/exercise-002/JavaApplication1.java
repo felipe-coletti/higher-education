@@ -6,16 +6,16 @@ public class JavaApplication1 {
     public static void main(String[] args) {
         int vector[] = {2, 5, 1, 7, 5, 8};
         
-        for (int i = 0; i < vector.length; i++) {
+        for (int i = vector.length - 1; i > 0; i--) {
             int actualNumber = vector[i];
-            int predecessorIndex = i - 1;
+            int j = i;
             
-            while (predecessorIndex >= 0 && vector[predecessorIndex] > actualNumber) {
-                vector[predecessorIndex + 1] = vector[predecessorIndex];
-                predecessorIndex--;
+            while (j > 0 && vector[j] < vector[j - 1]) {
+                vector[j] = vector[j - 1];
+                j--;
             }
             
-            vector[predecessorIndex + 1] = actualNumber;
+            vector[j] = actualNumber;
         }
         
         System.out.println(Arrays.toString(vector));
