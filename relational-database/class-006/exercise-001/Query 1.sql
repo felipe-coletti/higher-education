@@ -1,4 +1,4 @@
-CREATE TABLE `school`.`student`(
+CREATE TABLE `college`.`student`(
     `id` INT NOT NULL,
     `name` VARCHAR(255) NOT NULL,
     `age` INT NOT NULL,
