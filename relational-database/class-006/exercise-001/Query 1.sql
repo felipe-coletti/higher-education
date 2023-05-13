@@ -4,3 +4,5 @@ CREATE TABLE `college`.`student`(
     `age` INT NOT NULL,
     `gender` VARCHAR(255) NOT NULL
 ) ENGINE = InnoDB;
+
+ALTER TABLE `student` ADD `average` INT NOT NULL;
