@@ -15,7 +15,7 @@ create table client (
 	primary key (id)
 );
 
-desc `client`;
+desc client;
 
 show tables;
 
@@ -59,8 +59,8 @@ insert into client (
 	'CEP'
 );
 
-select * from `client`;
+select * from client;
 
-delete from `client` where id = 1;
+delete from client where id = 1;
 
-delete from `client`;
+delete from client;
