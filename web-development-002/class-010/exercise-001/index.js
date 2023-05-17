@@ -10,9 +10,9 @@ initializeApp({
 const db = getFirestore()
 
 const data = {
-  name: "Name",
-  state: "State",
-  country: "Country"
+  name: "Los Angeles",
+  state: "CA",
+  country: "USA"
 }
 
 const res = db.collection("cities").doc("LA").set(data)
