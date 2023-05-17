@@ -15,4 +15,4 @@ const data = {
   country: "country"
 }
 
-const res = db.collection("schedules").doc("LA").set(data)
+const res = db.collection("cities").doc("LA").set(data)
