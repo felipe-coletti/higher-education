@@ -19,6 +19,7 @@ public class JavaApplication1 {
             }
             
             result += " e " + secondNumber + ".";
+            
             System.out.println(result);
         }
     } 
