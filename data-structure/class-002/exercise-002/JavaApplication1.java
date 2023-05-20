@@ -10,10 +10,10 @@ public class JavaApplication1 {
         int number = header.nextInt();
         
         for (int currentLine = 1; currentLine <= number; currentLine++) {
-            String result = "";
+            String result = String.valueOf(currentLine);
             
-            for (int columnsNeeded = 1; columnsNeeded <= currentLine; columnsNeeded++) {
-                result += currentLine + " ";
+            for (int columnsNeeded = 2; columnsNeeded <= currentLine; columnsNeeded++) {
+                result += " " + currentLine;
             }
             
             System.out.println(result);
