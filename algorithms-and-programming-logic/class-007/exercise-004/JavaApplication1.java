@@ -10,7 +10,7 @@ public class JavaApplication1 {
                 sum += numbers[i];
             }
             
-            System.out.print("A soma dos números impares é: " + sum + ".");
+            System.out.println("A soma dos números impares é: " + sum + ".");
         }
     } 
 }
