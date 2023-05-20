@@ -21,7 +21,7 @@ public class JavaApplication1 {
                 numbers[i] = numbers[i] + 5;
             }
             
-            System.out.print("O " + (i + 1) + "º número é: " + numbers[i] + ".");
+            System.out.println("O " + (i + 1) + "º número é: " + numbers[i] + ".");
         }
     } 
 }
