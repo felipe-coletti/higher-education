@@ -16,7 +16,7 @@ public class JavaApplication1 {
         
         for (int i = 0; i < grades.length; i++) {
             if (i == 7 || i == 9) {
-                System.out.print("A " + (i + 1) + "º nota é: " + grades[i] + ".");
+                System.out.println("A " + (i + 1) + "º nota é: " + grades[i] + ".");
             }
         }
     }
