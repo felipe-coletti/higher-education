@@ -7,16 +7,16 @@ public class JavaApplication1 {
         int c[] = new int[5];
         
         for (int i = 0; i < a.length; i++) {
-            System.out.print("O " + (i + 1) + "º número do vetor A é: " + a[i] + ".");
+            System.out.println("O " + (i + 1) + "º número do vetor A é: " + a[i] + ".");
         }
         
         for (int i = 0; i < b.length; i++) {
-            System.out.print("O " + (i + 1) + "º número do vetor B é: " + b[i] + ".");
+            System.out.println("O " + (i + 1) + "º número do vetor B é: " + b[i] + ".");
             c[i] = (a[i] * b[i]);
         }
         
         for (int i = 0; i < c.length; i++) {
-            System.out.print("O " + (i + 1) + "º número do vetor C é: " + c[i] + ".");
+            System.out.println("O " + (i + 1) + "º número do vetor C é: " + c[i] + ".");
         }
     } 
 }
