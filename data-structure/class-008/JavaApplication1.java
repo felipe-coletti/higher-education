@@ -2,7 +2,6 @@ package javaapplication1;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.Scanner;
 import java.io.FileReader;
 import java.io.BufferedReader;
 import java.io.FileWriter;
@@ -15,10 +14,6 @@ public class JavaApplication1 {
     }
 
     private static void readFile() throws FileNotFoundException, IOException {
-        //Scanner header = new Scanner(System.in);
-        
-        //System.out.println("Digite o caminho de um arquivo de texto para ler: ");
-        //String path = header.next();
         final String path = "C:\\Users\\FATEC ZONA LESTE\\Desktop\\primeiroArquivo.txt";
         
         FileReader fileReader = new FileReader(path);
