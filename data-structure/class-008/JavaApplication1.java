@@ -28,7 +28,7 @@ public class JavaApplication1 {
         }
     }
 
-    private static void writeFile() throws FileNotFoundException, IOException {
+    private static void writeFile() throws IOException {
         final String newFile = "C:\\Users\\FATEC ZONA LESTE\\Desktop\\segundoArquivo.txt";
         
         FileWriter fileWriter = new FileWriter(newFile);
