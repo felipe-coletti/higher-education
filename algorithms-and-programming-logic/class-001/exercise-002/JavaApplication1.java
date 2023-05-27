@@ -11,7 +11,7 @@ public class JavaApplication1 {
         System.out.println("Digite a quantidade máxima de peças: ");
         int maximumQuantity = header.nextInt();
         
-        int averageQuantity = (minimumQuantity + maximumQuantity) / 2;
+        float averageQuantity = (minimumQuantity + maximumQuantity) / 2;
         
         System.out.println("A quantidade média de peças é: " + averageQuantity + ".");
     }
