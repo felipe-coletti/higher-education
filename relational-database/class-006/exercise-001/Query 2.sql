@@ -47,3 +47,7 @@ select truncate(average, 1) from student;
 select * from student order by name asc;
 
 select * from student order by name desc;
+
+select * from student order by id asc;
+
+select * from student order by id desc;
