@@ -9,7 +9,7 @@ public class JavaApplication1 {
         System.out.println("Digite uma temperatura em °F: ");
         float f = header.nextFloat();
         
-        float c = (f - 32) * 5/9;
+        float c = (f - 32) * 5 / 9;
         
         System.out.println(f + " °F equivale a " + c + " °C.");
     }
