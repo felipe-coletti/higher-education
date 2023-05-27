@@ -12,7 +12,7 @@ public class JavaApplication1 {
         
         for (int i = 0; i < b.length; i++) {
             System.out.println("O " + (i + 1) + "º número do vetor B é: " + b[i] + ".");
-            c[i] = (a[i] * b[i]);
+            c[i] = a[i] * b[i];
         }
         
         for (int i = 0; i < c.length; i++) {
