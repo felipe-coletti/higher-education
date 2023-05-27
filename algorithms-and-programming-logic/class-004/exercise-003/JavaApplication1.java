@@ -7,7 +7,7 @@ public class JavaApplication1 {
         Scanner header = new Scanner(System.in);
         
         System.out.println("Digite um número: ");
-        float number = header.nextFloat();
+        int number = header.nextFloat();
         
         if (number % 2 == 0) {
             System.out.println("O número " + number + " é par.");
