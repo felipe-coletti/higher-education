@@ -10,13 +10,13 @@ public class JavaApplication1 {
         
         do {
             System.out.println("Digite a primeira nota: ");
-            double firstGrade = header.nextDouble();
+            float firstGrade = header.nextFloat();
             System.out.println("Digite a segunda nota: ");
-            double secondGrade = header.nextDouble();
+            float secondGrade = header.nextFloat();
             System.out.println("Digite a terceira nota: ");
-            double thirdGrade = header.nextDouble();
+            float thirdGrade = header.nextFloat();
             
-            double average = (firstGrade + secondGrade + thirdGrade) / 3;
+            float average = (firstGrade + secondGrade + thirdGrade) / 3;
             
             System.out.println("A média das notas do " + (i + 1) + "º aluno é: " + average + ".");
             
