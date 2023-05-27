@@ -7,11 +7,11 @@ public class JavaApplication1 {
         Scanner header = new Scanner(System.in);
         
         System.out.println("Digite a primeira nota: ");
-        double firstGrade = header.nextDouble();
+        float firstGrade = header.nextFloat();
         System.out.println("Digite a segunda nota: ");
-        double secondGrade = header.nextDouble();
+        float secondGrade = header.nextFloat();
         
-        double average = (firstGrade + secondGrade) / 2; 
+        float average = (firstGrade + secondGrade) / 2; 
         
         System.out.println("A média das notas é: " + average + ".");
     }
