@@ -6,7 +6,7 @@ public class JavaApplication1 {
     public static void main(String[] args) {
         Scanner header = new Scanner(System.in);
         
-        float grades[] = new float[9];
+        float grades[] = new float[10];
         
         System.out.println("Digite 10 notas: ");
         
