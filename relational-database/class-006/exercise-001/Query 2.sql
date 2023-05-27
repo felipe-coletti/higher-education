@@ -1,8 +1,8 @@
 use college;
 
-insert into student values (1, "name", 1, "gender", 1.0);
-insert into student values (2, "name", 1, "gender", 2.0);
-insert into student values (3, "name", 1, "gender", 3.0);
+insert into student values (1, "Primeiro exemplo", 1, "gender", 1.0);
+insert into student values (2, "Segundo exemplo", 1, "gender", 2.0);
+insert into student values (3, "Terceiro exemplo", 1, "gender", 3.0);
 
 select * from student;
 
@@ -15,13 +15,13 @@ select id, name, age from student where id <= 1;
 select id, name, age from student where id >= 0 and id <= 2;
 select id, name, age from student where id = 0 or id <= 2;
 
-select id, name, age from student where name like binary "name%";
-select id, name, age from student where name like binary "% name";
-select id, name, age from student where name like binary "%name%";
+select id, name, age from student where name like binary "Primeiro%";
+select id, name, age from student where name like binary "% exemplo";
+select id, name, age from student where name like binary "%Primeiro%";
 
-select id, name, age from student where name like "name";
+select id, name, age from student where name like "Primeiro";
 
-select id, name, age from student where name in ("name", "subject");
+select id, name, age from student where name in ("Primeiro", "exemplo");
 
 select id, name, age, average from student where average between 3.0 and 6.0;
 
