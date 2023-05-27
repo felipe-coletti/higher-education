@@ -61,6 +61,6 @@ insert into client (
 
 select * from client;
 
-delete from client where id = 1;
-
 delete from client;
+
+delete from client where id = 1;
