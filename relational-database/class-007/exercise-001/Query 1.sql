@@ -5,7 +5,6 @@ use database;
 create table tableA (
 	name varchar(255)
 );
-
 create table tableB (
 	name varchar(255)
 );
