@@ -8,7 +8,6 @@ create table product (
 	description varchar(255),
 	primary key(id)
 );
-
 create table service (
 	id int not null auto_increment,
 	cost float(6, 2),
@@ -16,7 +15,6 @@ create table service (
 	description varchar(255),
 	primary key(id)
 );
-
 create table budget (
 	id int not null auto_increment,
 	value float(6, 2),
@@ -27,7 +25,6 @@ create table budget (
 	primary key(id),
 	constraint vehicleId foreign key (id) references vehicle (id)
 );
-
 create table client (
 	cpf varchar(14) not null,
 	name varchar(255),
@@ -35,7 +32,6 @@ create table client (
 	address varchar(255),
 	primary key(cpf)
 );
-
 create table vehicle (
 	renavam int(11) not null,
 	chassis varchar(255),
@@ -44,7 +40,6 @@ create table vehicle (
 	primary key(renavam),
 	constraint clientId foreign key (id) references client (id)
 );
-
 create table clientReport (
 	id int not null auto_increment,
 	problem varchar(255),
@@ -52,7 +47,6 @@ create table clientReport (
 	primary key(id),
 	constraint vehicleId foreign key (id) references vehicle (id)
 );
-
 create table productItem (
 	constraint productId foreign key (id) references product (id),
 	constraint budgetId foreign key (id) references budget (id),
@@ -60,7 +54,6 @@ create table productItem (
 	situation varchar(255),
 	quantity int
 );
-
 create table serviceItem (
 	constraint servicetId foreign key (id) references service (id),
 	constraint budgetId foreign key (id) references budget (id),
