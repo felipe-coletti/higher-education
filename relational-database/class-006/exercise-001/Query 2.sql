@@ -24,21 +24,25 @@ select avg(average) from student;
 
 select sum(average) from student group by average;
 
-select sum(average) from student group by average having sum(average) < 2;
+select avg(average) from student group by average;
 
-select avg(average) from student group by average having avg(average) = 5;
+select gender, avg(average) from student group by gender, average;
+
+select gender, avg(average) from student group by gender, average having avg(average) = 5;
 
 select distinct name from student;
 
 select now();
 
-select * from aluno where name is null;
+select * from aluno where name is not null;
 
-select upper(name) from student;
+select * from aluno where name is null;
 
 select lower(name) from student;
 
-select round(average, 2) from student;
+select upper(name) from student;
+
+select round(average, 1) from student;
 
 select sqrt(average) from student;
 
