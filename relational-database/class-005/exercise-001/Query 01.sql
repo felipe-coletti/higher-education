@@ -38,7 +38,6 @@ insert into client (
 	'UF',
 	'CEP'
 );
-
 insert into client (
 	name,
 	cpf,
@@ -62,7 +61,6 @@ insert into client (
 select * from client;
 
 delete from client;
-
 delete from client where id = 1;
 
 update client set name = 'Exemplo';
