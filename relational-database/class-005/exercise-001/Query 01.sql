@@ -65,6 +65,6 @@ delete from client;
 
 delete from client where id = 1;
 
-update client set name = "Exemplo";
+update client set name = 'Exemplo';
 
-update client set name = "Exemplo", cpf = 'CPF', street = 'Rua', number = 'Número', neighborhood = 'Bairro', city = 'Cidade', federativeUnit = 'UF', zipCode = 'CEP' where id = 1;
+update client set name = 'Exemplo', cpf = 'CPF', street = 'Rua', number = 'Número', neighborhood = 'Bairro', city = 'Cidade', federativeUnit = 'UF', zipCode = 'CEP' where id = 1;
