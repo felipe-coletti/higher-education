@@ -7,12 +7,12 @@ public class JavaApplication1 {
         Scanner header = new Scanner(System.in);
         
         System.out.println("Digite a distância percorrida durante a viagem em quilometros: ");
-        float d = header.nextFloat();
+        float distance = header.nextFloat();
         System.out.println("Digite a quantidade de combustível gasta durante a viagem: ");
-        float l = header.nextFloat();
+        float fuel = header.nextFloat();
         
-        float km = d / l;
+        float fuelConsumption = distance / fuel;
         
-        System.out.println("O consumo médio do veículo foi de  " + km + " Km/L.");
+        System.out.println("O consumo médio do veículo foi de  " + fuelConsumption + " Km/L.");
     }
 }
