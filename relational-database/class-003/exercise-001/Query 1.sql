@@ -73,13 +73,10 @@ alter table client change column name fullName varchar(255);
 alter table vehicle add column year int(4);
 
 drop table product;
-
 drop table service;
-
 drop table budget;
-
 drop table client;
-
 drop table vehicle;
-
 drop table clientReport;
+drop table productItem;
+drop table serviceItem;
