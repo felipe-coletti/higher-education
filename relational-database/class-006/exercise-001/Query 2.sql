@@ -24,9 +24,9 @@ select avg(average) from student;
 
 select sum(average) from student group by average;
 
+select sum(average) from student group by average having sum(average) < 2;
 
-
-having avg(average) = 5;
+select avg(average) from student group by average having avg(average) = 5;
 
 select distinct name from student;
 
