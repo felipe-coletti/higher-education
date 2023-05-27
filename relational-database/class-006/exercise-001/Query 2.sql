@@ -7,8 +7,21 @@ insert into student values (3, "name", 1, "gender", 3.0);
 select * from student;
 
 select id, name, age from student where id = 1;
+select id, name, age from student where id > 1;
+select id, name, age from student where id < 1;
+select id, name, age from student where id <> 1;
+select id, name, age from student where id >= 1;
+select id, name, age from student where id <= 1;
+select id, name, age from student where id >= 0 and id <= 2;
+select id, name, age from student where id = 0 or id <= 2;
 
+select id, name, age from student where name like binary "name%";
 select id, name, age from student where name like binary "% name";
+select id, name, age from student where name like binary "%name%";
+
+select id, name, age from student where name like "name";
+
+select id, name, age from student where name in ("name", "subject");
 
 select id, name, age, average from student where average between 3.0 and 6.0;
 
