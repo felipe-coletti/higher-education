@@ -7,7 +7,7 @@ public class JavaApplication1 {
          Scanner header = new Scanner(System.in);
         
         float grades[] = new float[10];
-        float approved = 0;
+        int approved = 0;
         
         System.out.println("Digite 10 notas: ");
         
