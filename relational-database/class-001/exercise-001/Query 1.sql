@@ -10,7 +10,6 @@ create table student (
 	telephone varchar(19),
 	primary key (ra)
 );
-
 create table discipline (
 	id int not null auto_increment,
 	name varchar(255) not null,
@@ -18,7 +17,6 @@ create table discipline (
 	primary key (id),
 	constraint studentRa foreign key (ra) references student (ra)
 );
-
 create table grade (
 	id int not null auto_increment,
 	value decimal(2, 2) not null check (value between 0 and 10),
