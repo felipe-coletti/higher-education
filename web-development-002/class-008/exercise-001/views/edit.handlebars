@@ -31,26 +31,26 @@
                         <div class="mb-3">
                             <input type="hidden" class="form-control" id="exampleDropdownFormId1" value="{{id}}">
                             <label for="exampleDropdownFormName1" class="form-label">Nome:</label>
-                            <input type="text" class="form-control" id="exampleDropdownFormName1" value="{{name}}">
+                            <input name="name" type="text" class="form-control" id="exampleDropdownFormName1" value="{{name}}">
                         </div>
                         <div class="mb-3">
                             <label for="exampleDropdownFormTelephone1" class="form-label">Telefone:</label>
-                            <input type="tel" class="form-control" id="exampleDropdownFormTelephone1" placeholder="(xx) xxxxx-xxxx" value="{{telephone}}">
+                            <input name="telephone" type="tel" class="form-control" id="exampleDropdownFormTelephone1" placeholder="(xx) xxxxx-xxxx" value="{{telephone}}">
                         </div>
                         <div class="mb-3">
                             <label for="form-select" class="form-label">Origem:</label>
-                            <select class="form-select" aria-label="Default select example">
+                            <select name="origin" class="form-select" aria-label="Default select example">
                                 <option value="0" selected>Celular</option>
                                 <option value="1">Telefone fixo</option>
                             </select>
                         </div>
                         <div class="mb-3">
                             <label for="exampleDropdownFormDate1" class="form-label">Data do contato:</label>
-                            <input type="date" class="form-control" id="exampleDropdownFormDate1" value="{{date}}">
+                            <input name="date" type="date" class="form-control" id="exampleDropdownFormDate1" value="{{date}}">
                         </div>
                         <div class="mb-3">
                             <label for="exampleFormControlTextarea1" class="form-label">Observação:</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">{{note}}</textarea>
+                            <textarea name="note" class="form-control" id="exampleFormControlTextarea1" rows="3">{{note}}</textarea>
                         </div>
                         <button type="submit" class="btn btn-primary">Atualizar</button>
                     </form>
