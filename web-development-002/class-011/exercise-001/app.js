@@ -46,8 +46,7 @@ app.post("/update", function(req, res) {
         where: {
             id: req.body.id
         }
-    }
-    ).then(function() {
+    }).then(function() {
         res.redirect("/consult")
     })
 })
