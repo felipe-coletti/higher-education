@@ -14,6 +14,7 @@ body {
 }
 
 .acessibility-bar {
+    justify-content: space-between;
     background-color: #000;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
@@ -22,19 +23,14 @@ body {
 .shortcuts-area, .options-area {
     list-style: none;
     display: inline-flex;
-    padding: 5px;
 }
 
 .shortcuts-area li, .options-area li {
-    padding-left: 10px;
+    padding: 5px 10px;
 }
 
 .shortcuts-area li a, .options-area li a {
     color: yellow;
-}
-
-.options-area {
-    margin-left: 60%;
 }
 
 #top {
@@ -204,37 +200,9 @@ video {
     align-self: center;
 }
 
-@media screen and (max-width: 1680px) {
-    .options-area {
-        margin-left: 45%;
-    }
-}
-
-@media screen and (max-width: 1345px) {
-    .options-area {
-        margin-left: 40%;
-    }
-}
-
-@media screen and (max-width: 1230px) {
-    .options-area {
-        margin-left: 30%;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .options-area {
-        margin-left: 25%;
-    }
-}
-
 @media screen and (max-width: 850px) {
     .shortcuts-area {
         display: none;
-    }
-
-    .options-area {
-        margin: auto;
     }
 }
 
