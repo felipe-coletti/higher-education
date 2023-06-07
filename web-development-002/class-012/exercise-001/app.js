@@ -30,9 +30,10 @@ app.post("/sign-up", function(req, res) {
         origin: req.body.origin,
         date: req.body.date,
         note: req.body.note
+    }).then(function(){
+        console.log("Documento adicionado.");
+        res.redirect('/')
     })
-
-    console.log("Documento adicionado.");
 })
 
 app.post("/update", function(req, res) {
