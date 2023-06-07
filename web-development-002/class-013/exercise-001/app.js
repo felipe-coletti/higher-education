@@ -37,18 +37,15 @@ app.post("/sign-up", function(req, res) {
 })
 
 app.post("/update", function(req, res) {
-    post.update({
+    var res = db.collection("schedules").update({
         name: req.body.name,
         telephone: req.body.telephone,
         origin: req.body.origin,
         date: req.body.date,
         note: req.body.note
-    }, {
-        where: {
-            id: req.body.id
-        }
-    }).then(function() {
-        res.redirect("/consult")
+    }).doc(doc.id).then(function(){
+        console.log("Documento atualizado.");
+        res.redirect('/consult')
     })
 })
 
