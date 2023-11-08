@@ -13,7 +13,7 @@ public class JavaApplication1 {
 	    System.out.println("Digite um ano: ");
 	    int year = header.nextInt();
 	    
-	    if (year % 4 == 0) {
+	    if (year % 400 == 0 || year % 4 == 0 && year % 100 != 0) {
 	    	monthDaysQuantity[1] += 1;
 	    }
 	    
