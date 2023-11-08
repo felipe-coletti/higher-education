@@ -1,4 +1,3 @@
-
 package javaapplication1;
 
 import java.util.Scanner;
