@@ -19,7 +19,7 @@ public class JavaApplication1 {
             } else if (stayLength == 2) {
                 System.out.println("O valor a ser pago é de R$ 15,00.");
             } else {
-                System.out.println("O valor a ser pago é de R$ " + stayLength * 3 + ".");
+                System.out.println("O valor a ser pago é de R$ " + stayLength * 5 + ".");
             }
         } else {
             System.out.println("O horário de entrada e/ou de saída está fora do horário de funcionamento do estacionamento.");
