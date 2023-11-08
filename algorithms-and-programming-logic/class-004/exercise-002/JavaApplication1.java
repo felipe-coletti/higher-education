@@ -13,7 +13,7 @@ public class JavaApplication1 {
         
         int stayLength = departureTime - checkInTime;
         
-        if (checkInTime <= 8 && departureTime <= 18) {
+        if (checkInTime >= 8 && departureTime <= 18) {
             if (stayLength <= 1) {
                 System.out.println("O valor a ser pago é de R$ 8,00.");
             } else if (stayLength == 2) {
