@@ -4,8 +4,7 @@ import styles from './styles.module.css'
 const Home = () => {
     return(
         <div className={styles.container}>
-            <h1 className={styles.primaryTitle}>Home</h1>
-            <p className={styles.paragraph}></p>
+            <h1>Home</h1>
         </div>
     )
 }

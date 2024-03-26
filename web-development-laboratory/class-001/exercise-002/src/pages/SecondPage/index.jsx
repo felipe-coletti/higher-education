@@ -4,8 +4,7 @@ import styles from './styles.module.css'
 const SecondPage = () => {
     return(
         <div className={styles.container}>
-            <h1 className={styles.primaryTitle}>Página 2</h1>
-            <p className={styles.paragraph}></p>
+            <h1>Página 2</h1>
         </div>
     )
 }

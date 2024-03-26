@@ -5,7 +5,7 @@ import fatecLogo from '../../assets/images/fatec-zl.png'
 const Header = () => {
     return(
         <header className={styles.container}>
-            <img className={styles.image} src={fatecLogo} alt='Logo Fatec'/>
+            <img src={fatecLogo} alt='Logo Fatec'/>
         </header>
     )
 }
