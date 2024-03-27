@@ -1,0 +1,29 @@
+.container {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.form {
+    gap: 1rem;
+    width: 20rem;
+}
+
+.label {
+    gap: 0.5rem;
+}
+
+.form, .label {
+    display: flex;
+    flex-direction: column;
+}
+
+.textarea {
+    resize: none;
+}
+
+.input, .textarea, .button {
+    padding: 0.5rem;
+}
