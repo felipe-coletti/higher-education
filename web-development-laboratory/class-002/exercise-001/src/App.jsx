@@ -4,17 +4,18 @@ import UserDetails from './components/UserDetais'
 
 function App() {
     const users = [
-        {id: 1001, name: "Tom", age: 19, job: "só dorme"},
-        {id: 1002, name: "Lisa", age: 17, job: "aprendiz de inspetora"},
-        {id: 1003, name: "Jão", age: 25, job: "desenvolvedor"}
+        {id: 1, name: "Primeiro nome", age: 1, job: "primeiro trabalho"},
+        {id: 2, name: "Segundo nome", age: 18, job: "segundo trabalho"}
     ]
 
     return (
         <div className="container">
-            <ShowUserName name="Junior"/>
-            {users.map((user) => (
-                <UserDetails key={user.id} name={user.name} age={user.age} job={user.job}/>
-            ))}
+            <div className="content-area">
+                <ShowUserName name="Primeiro nome"/>
+                {users.map((user) => (
+                    <UserDetails key={user.id} name={user.name} age={user.age} job={user.job}/>
+                ))}
+            </div>
         </div>
     )
 }

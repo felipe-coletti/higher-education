@@ -1,15 +1,16 @@
 import React from 'react'
+import styles from './styles.module.css'
 
 const UserDetails = ({name, age, job}) => {
     return (
-        <div>
+        <div className={styles.container}>
             <h2>Usuários</h2>
-            <ul>
+            <ul className={styles.list}>
                 <li>Nome: {name}</li>
                 <li>Idade: {age}</li>
                 <li>Profissão: {job}</li>
+                <li>{age >= 18 ? <p>Maior de idade</p> : <p>Menor de idade</p>}</li>
             </ul>
-            {age >= 18 ? <p>Maior de idade</p> : <p>Menor de idade</p>}
         </div>
     )
 }

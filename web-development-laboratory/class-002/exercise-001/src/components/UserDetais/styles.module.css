@@ -1,0 +1,12 @@
+.container {
+    gap: 1rem;
+}
+
+.list {
+    gap: 0.5rem;
+}
+
+.container, .list {
+    display: flex;
+    flex-direction: column;
+}
