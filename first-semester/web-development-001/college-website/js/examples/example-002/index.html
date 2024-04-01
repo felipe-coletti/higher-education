@@ -8,17 +8,17 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <form method="post" name="register" onSubmit="return validateForm()">
+    <form onSubmit="validateForm()">
         <label for="name">Nome</label>
-        <input type="text" name="name" id="name" required>
+        <input id="name" type="text" required>
         <label for="cpf">CPF</label>
-        <input type="text" name="cpf" id="cpf" required>
+        <input id="cpf" type="text" required>
         <label for="email">E-mail</label>
-        <input type="text" name="email" id="email">
+        <input id="email" type="text" required>
         <label for="password">Senha</label>
-        <input type="password" name="password" id="password">
+        <input id="password" type="password" required>
         <label for="confirm-password">Confirmar senha</label>
-        <input type="password" name="confirm-password" id="confirm-password">
+        <input id="confirm-password" type="password" required>
         <button type="submit">Cadastrar</button>
         <button type="reset">Limpar</button>
     </form>
