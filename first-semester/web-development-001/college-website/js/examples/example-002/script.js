@@ -1,4 +1,4 @@
-function validate() {
+function validateForm() {
     let cpf = register.cpf.value 
     let password = register.password.value
     let confirm = register.confirm.value
