@@ -15,20 +15,20 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(bundle)
         setContentView(R.layout.activity_main)
 
-        val name = findViewById<EditText>(R.id.editTextText)
-        val email = findViewById<EditText>(R.id.editTextText2)
-        val phoneNumber = findViewById<EditText>(R.id.editTextText3)
-        val saveContact = findViewById<Button>(R.id.button)
-        val contactsList = findViewById<ListView>(R.id.listView)
+        val nameInput = findViewById<EditText>(R.id.nameInput)
+        val emailInput = findViewById<EditText>(R.id.emailInput)
+        val phoneNumberInput = findViewById<EditText>(R.id.phoneNumber)
+        val saveButton = findViewById<Button>(R.id.saveButton)
+        val contactList = findViewById<ListView>(R.id.list)
         val adapter = ArrayAdapter<String>(this, android.R.layout.simple_list_item_1)
 
         contactsList.adapter = adapter
 
-        saveContact.setOnClickListener {
+        saveButton.setOnClickListener {
             val newContact = Contact(
-                name.text.toString(),
-                email.text.toString(),
-                phoneNumber.text.toString()
+                nameInput.text.toString(),
+                emailInput.text.toString(),
+                phoneNumberInput.text.toString()
             )
 
             list.add(newContact)
