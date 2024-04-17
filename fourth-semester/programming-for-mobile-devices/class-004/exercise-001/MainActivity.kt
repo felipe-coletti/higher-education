@@ -8,12 +8,12 @@ import android.widget.EditText
 import android.widget.Button
 import android.widget.ListView
 
-class ContactActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
     private val list = mutableListOf<Contact>()
 
     override fun onCreate(bundle: Bundle?) {
         super.onCreate(bundle)
-        setContentView(R.layout.activity_contact)
+        setContentView(R.layout.activity_main)
 
         val name = findViewById<EditText>(R.id.editTextText)
         val email = findViewById<EditText>(R.id.editTextText2)
