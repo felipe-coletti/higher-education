@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         val emailInput = findViewById<EditText>(R.id.emailInput)
         val phoneNumberInput = findViewById<EditText>(R.id.phoneNumber)
         val saveButton = findViewById<Button>(R.id.saveButton)
-        val contactList = findViewById<ListView>(R.id.list)
+        val contactsList = findViewById<ListView>(R.id.list)
         val adapter = ArrayAdapter<String>(this, android.R.layout.simple_list_item_1)
 
         contactsList.adapter = adapter
