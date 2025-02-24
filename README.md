@@ -1,6 +1,6 @@
 # Cross-Platform Software Development
 
-Welcome to the **Cross-Platform Software Development**! This repository contains various exercises, assignments, and projects related to different topics covered in class. Below, you'll find a detailed explanation of the repository structure and how to navigate through the files.
+Welcome to the **Cross-Platform Software Development Repository**! This repository contains various exercises, assignments, and projects related to different topics covered in class. Below, you'll find a detailed explanation of the repository structure and how to navigate through the files.
 
 ## 📂 Repository Structure
 
@@ -30,7 +30,7 @@ Welcome to the **Cross-Platform Software Development**! This repository contains
 Each semester has its own folder (e.g., `first-semester`), containing subject-specific directories. Each subject may include:
 -   **Class activities (`class-001`, `class-002`, etc.)** with individual exercises.
 -   **Mini-projects (`mini-projects`)** containing different project-based assignments.
--   **A subject project (subject-project)**, which is typically developed in class along with the professor throughout the semester.
+-   **A subject project (subject-project)**, which is typically developed in class along with the professor to serve as a study example throughout the semester.
 
 Not all subjects will have all types of folders—some may only have class activities, mini-projects, or a subject project.
 
@@ -42,7 +42,7 @@ Each directory contains a `README.md` with relevant information:
 ## 🚀 How to Use
 1. **Navigate** to the corresponding semester and subject folder.
 2. **Read** the `README.md` file inside each dynamic folder (`class-001`, `mini-projects`, `subject-project`, etc.).
-3. **Complete** the exercises or mini-projects based on the given instructions.
+3. **Complete the exercises, work on mini-projects, or review subject projects.**
 4. **Check solutions** if available.
 
 ## 🛠 Requirements
