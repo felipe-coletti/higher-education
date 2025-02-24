@@ -37,7 +37,7 @@ Not all subjects will have all types of folders—some may only have class activ
 Each directory contains a `README.md` with relevant information:
 -   Exercises (`class-xxx/exercise-xxx`): Includes a rewritten problem statement, instructions on how to complete the task, and solutions (if applicable).
 -   Mini-projects (`mini-projects/mini-project-xxx`): Provides a rewritten problem statement, project description, and the corresponding implementation.
--   Subject projects (`subject-project ): Contains a project overview, materials developed in class, and its implementation (if applicable).
+-   Subject projects (`subject-project`): Contains a project overview, materials developed in class, and its implementation (if applicable).
 
 ## 🚀 How to Use
 1. **Navigate** to the corresponding semester and subject folder.
