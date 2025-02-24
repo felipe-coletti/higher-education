@@ -19,22 +19,29 @@ Welcome to the **Cross-Platform Software Development**! This repository contains
 │   │   │   │   ├── 📄 README.md        # Overview of the mini-project
 │   │   │   │   ├── 📄 implementation.ext  # Code or documents
 │   │   │   ├── ...
+│   │   ├── 📁 subject-project
+│   │   │   ├── 📄 README.md            # Description of the main project for this subject
+│   │   │   ├── 📄 implementation.ext   # Project files
+│   │   │   ├── ...
 └── 📄 README.md            # General repository overview
 ```
 
 ### 📁 Semester and Subject Folders
-Each semester has its own folder (e.g., `first-semester`), containing subject-specific directories. Each subject includes:
+Each semester has its own folder (e.g., `first-semester`), containing subject-specific directories. Each subject may include:
 -   **Class activities (`class-001`, `class-002`, etc.)** with individual exercises.
 -   **Mini-projects (`mini-projects`)** containing different project-based assignments.
+-   **A subject project (subject-project)**, if the subject involves a single large project developed throughout the semester.
 
-Each exercise and mini-project has a `README.md` that includes:
+Not all subjects will have all types of folders—some may only have class activities, mini-projects, or a subject project.
+
+Each exercise, mini-project or subject-project has a `README.md` that includes:
 -   A **rewritten problem statement**, ensuring clarity and avoiding potential copyright issues.
 -   **Instructions** on how to complete the task.
 -   **Solutions**, if applicable, to provide guidance.
 
 ## 🚀 How to Use
 1. **Navigate** to the corresponding semester and subject folder.
-2. **Read** the `README.md` file inside each dynamic folder (`class-001`, `mini-projects`, etc.).
+2. **Read** the `README.md` file inside each dynamic folder (`class-001`, `mini-projects`, `subject-project`, etc.).
 3. **Complete** the exercises or mini-projects based on the given instructions.
 4. **Check solutions** if available.
 
