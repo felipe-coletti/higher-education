@@ -1,60 +1,63 @@
-# Cross-Platform Software Development
+# Desenvolvimento de Software Multiplataforma
 
-Welcome to the **Cross-Platform Software Development Repository**! This repository contains various exercises, assignments, and projects related to different topics covered in class. Below, you'll find a detailed explanation of the repository structure and how to navigate through the files.
+Bem-vindo ao **Repositório de Desenvolvimento de Software Multiplataforma**! Este repositório contém diversos exercícios, tarefas e projetos relacionados a diferentes tópicos abordados em aula. Abaixo, você encontrará uma explicação detalhada da estrutura do repositório e como navegar pelos arquivos.
 
-## 📂 Repository Structure
+## 📂 Estrutura do Repositório
 
 ```
 📦 class-activities-repo
 ├── 📁 first-semester
-│   ├── 📁 subject-name
-│   │   ├── 📁 class-001
-│   │   │   ├── 📁 exercise-001
-│   │   │   │   ├── 📄 README.md        # Instructions for the exercise
-│   │   │   │   ├── 📄 solution.ext      # Solution (if available)
-│   │   │   ├── 📁 exercise-002
-│   │   │   ├── ...
-│   │   ├── 📁 mini-projects
-│   │   │   ├── 📁 mini-project-001
-│   │   │   │   ├── 📄 README.md        # Overview of the mini-project
-│   │   │   │   ├── 📄 implementation.ext  # Code or documents
-│   │   │   ├── ...
-│   │   ├── 📁 subject-project
-│   │   │   ├── 📄 README.md            # Description of the main project for this subject
-│   │   │   ├── 📄 implementation.ext   # Project files
-│   │   │   ├── ...
+│ ├── 📁 subject-name
+│ │ ├── 📁 class-001
+│ │ │ ├── 📁 exercise-001
+│ │ │ │ ├── 📄 README.md # Instruções para o exercício
+│ │ │ │ ├── 📄 solution.ext # Solução (se disponível)
+│ │ │ ├── 📁 exercise-002
+│ │ │ ├── ...
+│ │ ├── 📁 mini-projects
+│ │ │ ├── 📁 mini-project-001
+│ │ │ │ ├── 📄 README.md # Visão geral do mini-projeto
+│ │ │ │ ├── 📄 implementation.ext # Código ou documentos
+│ │ │ ├── ...
+│ │ ├── 📁 projeto-disciplina
+│ │ │ ├── 📄 README.md # Descrição do projeto principal desta disciplina
+│ │ │ ├── 📄 implementation.ext # Arquivos do projeto
+│ │ │ ├── ...
 ├── ...
-└── 📄 README.md            # General repository overview
+└── 📄 README.md # Visão geral do repositório
 ```
 
-### 📁 Semester and Subject Folders
-Each semester has its own folder (e.g., `first-semester`), containing subject-specific directories. Each subject may include:
--   **Class activities (`class-001`, `class-002`, etc.)** with individual exercises.
--   **Mini-projects (`mini-projects`)** containing different project-based assignments.
--   **A subject project (`subject-project`)**, which serves as a reference project developed in class to illustrate key topics covered during the subject.
+### 📁 Pastas de Semestre e Disciplina
+Cada semestre possui sua própria pasta (por exemplo, `first-semester`), contendo diretórios específicos da disciplina. Cada disciplina pode incluir:
+- **Atividades de aula (`class-001`, `class-002`, etc.)** com exercícios individuais.
 
-Not all subjects will have all types of folders—some may only have class activities, mini-projects, or a subject project.
+- **Miniprojetos (`mini-projects`)** contendo diferentes tarefas baseadas em projetos.
+- **Um projeto da disciplina (`subject-project`)**, que serve como projeto de referência desenvolvido em sala de aula para ilustrar os principais tópicos abordados durante a disciplina.
 
-Each directory contains a `README.md` with relevant information:
--   Exercises (`class-xxx/exercise-xxx`): Includes a rewritten problem statement, instructions on how to complete the task, and solutions (if applicable).
--   Mini-projects (`mini-projects/mini-project-xxx`): Provides a rewritten problem statement, project description, and the corresponding implementation.
--   Subject projects (`subject-project`): Contains a project overview, materials developed in class, and its implementation (if applicable).
+Nem todas as disciplinas terão todos os tipos de pastas — algumas podem ter apenas atividades de aula, miniprojetos ou um projeto da disciplina.
 
-## 🚀 How to Use
-1. **Navigate** to the corresponding semester and subject folder.
-2. **Read** the `README.md` file inside each dynamic folder (`class-001`, `mini-projects`, `subject-project`, etc.).
-3. **Complete the exercises, work on mini-projects, or review subject projects.**
-4. **Check solutions** if available.
+Cada diretório contém um arquivo `README.md` com informações relevantes:
+- Exercícios (`class-xxx/exercise-xxx`): Inclui um enunciado do problema reescrito, instruções sobre como concluir a tarefa e soluções (se aplicável).
 
-## 🛠 Requirements
-Some activities might require specific software or tools. Please check the activity description for any dependencies or prerequisites.
+- Miniprojetos (`mini-projects/mini-project-xxx`): Fornece um enunciado do problema reescrito, descrição do projeto e a implementação correspondente.
 
-## 📢 Contributions
-If you want to contribute or suggest improvements, feel free to create a pull request or open an issue.
+- Projetos da disciplina (`subject-project`): Contém uma visão geral do projeto, materiais desenvolvidos em sala de aula e sua implementação (se aplicável).
 
-## 📜 License
-This repository is available under the [MIT License](LICENSE). Feel free to use and modify the content for educational purposes.
+## 🚀 Como usar
+1. **Navegue** até a pasta correspondente ao semestre e à disciplina.
+2. **Leia** o arquivo `README.md` dentro de cada pasta dinâmica (`class-001`, `mini-projects`, `subject-project`, etc.).
+3. **Conclua os exercícios, trabalhe nos miniprojetos ou revise os projetos da disciplina.**
+4. **Verifique as soluções**, se disponíveis.
+
+## 🛠 Requisitos
+Algumas atividades podem exigir softwares ou ferramentas específicas. Verifique a descrição da atividade para quaisquer dependências ou pré-requisitos.
+
+## 📢 Contribuições
+Se você quiser contribuir ou sugerir melhorias, sinta-se à vontade para criar uma solicitação de pull ou abrir uma issue.
+
+## 📜 Licença
+Este repositório está disponível sob a [Licença MIT](LICENSE). Sinta-se à vontade para usar e modificar o conteúdo para fins educacionais.
 
 ---
 
-Happy Learning! 🚀
+Bons estudos! 🚀
