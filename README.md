@@ -5,24 +5,24 @@ Bem-vindo ao **Repositório de Desenvolvimento de Software Multiplataforma**! Es
 ## 📂 Estrutura do Repositório
 
 ```
-📦 class-activities-repo
-├── 📁 first-semester
-│ ├── 📁 subject-name
-│ │ ├── 📁 class-001
-│ │ │ ├── 📁 exercise-001
-│ │ │ │ ├── 📄 README.md # Instruções para o exercício
-│ │ │ │ ├── 📄 solution.ext # Solução (se disponível)
-│ │ │ ├── 📁 exercise-002
-│ │ │ ├── ...
-│ │ ├── 📁 mini-projects
-│ │ │ ├── 📁 mini-project-001
-│ │ │ │ ├── 📄 README.md # Visão geral do mini-projeto
-│ │ │ │ ├── 📄 implementation.ext # Código ou documentos
-│ │ │ ├── ...
-│ │ ├── 📁 projeto-disciplina
-│ │ │ ├── 📄 README.md # Descrição do projeto principal desta disciplina
-│ │ │ ├── 📄 implementation.ext # Arquivos do projeto
-│ │ │ ├── ...
+📦 class-activities-repo/
+├── 📁 first-semester/
+│   ├── 📁 subject-name/
+│   │   ├── 📁 class-001/
+│   │   │   ├── 📁 exercise-001/
+│   │   │   │   ├── 📄 README.md # Instruções para o exercício
+│   │   │   │   ├── 📄 solution.ext # Solução (se disponível)
+│   │   │   ├── 📁 exercise-002/
+│   │   │   ├── ...
+│   │   ├── 📁 mini-projects/
+│   │   │   ├── 📁 mini-project-001/
+│   │   │   │   ├── 📄 README.md # Visão geral do mini-projeto
+│   │   │   │   ├── 📄 implementation.ext # Código ou documentos
+│   │   │   ├── ...
+│   │   ├── 📁 discipline-project/
+│   │   │   ├── 📄 README.md # Descrição do projeto principal desta disciplina
+│   │   │   ├── 📄 implementation.ext # Arquivos do projeto
+│   │   │   ├── ...
 ├── ...
 └── 📄 README.md # Visão geral do repositório
 ```
